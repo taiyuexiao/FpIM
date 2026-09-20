@@ -1,0 +1,627 @@
+/* FpIM 会话模块样式底座 —— 照飞书 7.x 的四个视觉基因：
+ *   ① 白底为主（仅左栏浅灰，内容区全白）
+ *   ② 0.5px 极轻分隔（一律细线，不用 box-shadow 分层）
+ *   ③ 四级灰严格分层（正文 #1F2329，不用纯黑）
+ *   ④ 大留白 + 小圆角（6~10px，行高 1.6）
+ *
+ * 自检口诀：出现 box-shadow / 1px 深边框 / 纯黑正文 / 20px+ 圆角，基本判定跑偏。
+ * 完整规格见 03-前端设计文档.md §12。
+ */
+
+.fpim {
+  --im-primary: #3370ff;
+  --im-primary-hover: #2860e1;
+  --im-primary-weak: #e8efff;
+
+  --im-bg-rail: #f2f3f5;
+  --im-bg-list: #f5f6f7;
+  --im-bg-main: #ffffff;
+  --im-bg-side: #f7f8fa;
+  --im-hover: #f2f3f5;
+
+  --im-text-1: #1f2329;
+  --im-text-2: #646a73;
+  --im-text-3: #8f959e;
+  --im-text-4: #bbbfc4;
+
+  --im-line: rgba(31, 35, 41, 0.08);
+  --im-line-strong: rgba(31, 35, 41, 0.14);
+
+  --im-danger: #f54a45;
+  --im-success: #34c724;
+  --im-warn: #ff8800;
+
+  --im-radius: 6px;
+  --im-radius-lg: 8px;
+
+  height: 100%;
+  display: flex;
+  background: var(--im-bg-main);
+  color: var(--im-text-1);
+  font-size: 14px;
+  line-height: 1.6;
+  overflow: hidden;
+}
+
+.fpim button {
+  font-family: inherit;
+}
+
+/* ── 列表栏 ───────────────────────────────────────────── */
+.fpim-list {
+  width: 300px;
+  flex: 0 0 300px;
+  background: var(--im-bg-list);
+  border-right: 0.5px solid var(--im-line);
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.fpim-list-head {
+  padding: 16px 16px 8px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.fpim-list-title {
+  flex: 1;
+  font-size: 16px;
+  font-weight: 600;
+  letter-spacing: 0.2px;
+}
+
+.fpim-list-search {
+  padding: 0 12px 10px;
+}
+
+.fpim-list-search input {
+  width: 100%;
+  box-sizing: border-box;
+  height: 32px;
+  padding: 0 10px;
+  border: 0.5px solid transparent;
+  border-radius: var(--im-radius);
+  background: rgba(31, 35, 41, 0.06);
+  color: var(--im-text-1);
+  font-size: 13px;
+  outline: none;
+}
+
+.fpim-list-search input:focus {
+  background: #fff;
+  border-color: var(--im-primary);
+}
+
+.fpim-list-scroll {
+  flex: 1;
+  overflow-y: auto;
+  padding-bottom: 8px;
+}
+
+/* 滚动条：极细、默认透明，hover 才显形 */
+.fpim-list-scroll::-webkit-scrollbar,
+.fpim-msg-scroll::-webkit-scrollbar,
+.fpim-side-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.fpim-list-scroll::-webkit-scrollbar-thumb,
+.fpim-msg-scroll::-webkit-scrollbar-thumb,
+.fpim-side-scroll::-webkit-scrollbar-thumb {
+  background: transparent;
+  border-radius: 3px;
+}
+.fpim-list-scroll:hover::-webkit-scrollbar-thumb,
+.fpim-msg-scroll:hover::-webkit-scrollbar-thumb,
+.fpim-side-scroll:hover::-webkit-scrollbar-thumb {
+  background: rgba(31, 35, 41, 0.18);
+}
+
+/* ── 会话条目 ─────────────────────────────────────────── */
+.fpim-conv {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  margin: 0 8px 2px;
+  border-radius: var(--im-radius);
+  cursor: pointer;
+  position: relative;
+}
+
+.fpim-conv:hover {
+  background: rgba(31, 35, 41, 0.05);
+}
+
+.fpim-conv.is-active {
+  background: var(--im-primary-weak);
+}
+
+.fpim-conv-main {
+  flex: 1;
+  min-width: 0;
+}
+
+.fpim-conv-row1 {
+  display: flex;
+  align-items: baseline;
+  gap: 6px;
+}
+
+.fpim-conv-name {
+  flex: 1;
+  font-size: 14px;
+  font-weight: 500;
+  color: var(--im-text-1);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fpim-conv-time {
+  font-size: 12px;
+  color: var(--im-text-3);
+  flex: 0 0 auto;
+}
+
+.fpim-conv-row2 {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-top: 2px;
+}
+
+.fpim-conv-preview {
+  flex: 1;
+  font-size: 12px;
+  color: var(--im-text-3);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.fpim-badge {
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  border-radius: 9px;
+  background: var(--im-danger);
+  color: #fff;
+  font-size: 11px;
+  line-height: 18px;
+  text-align: center;
+  font-weight: 500;
+  flex: 0 0 auto;
+}
+
+/* 会话状态标签：必须带文字，不能只用色点（色盲 + 避免"亮红牌"观感） */
+.fpim-chip {
+  display: inline-block;
+  padding: 0 6px;
+  height: 18px;
+  line-height: 18px;
+  border-radius: 4px;
+  font-size: 11px;
+  white-space: nowrap;
+  flex: 0 0 auto;
+}
+.fpim-chip.doing   { background: #fff3e0; color: #c86400; }
+.fpim-chip.done    { background: #e8f7e9; color: #1f8b24; }
+.fpim-chip.failed  { background: #fdecec; color: #d9382f; }
+.fpim-chip.new     { background: var(--im-primary-weak); color: var(--im-primary); }
+
+/* ── 头像 ─────────────────────────────────────────────── */
+.fpim-avatar {
+  width: 36px;
+  height: 36px;
+  flex: 0 0 36px;
+  border-radius: var(--im-radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 13px;
+  font-weight: 500;
+  overflow: hidden;
+  user-select: none;
+}
+.fpim-avatar.sm { width: 28px; height: 28px; flex-basis: 28px; font-size: 12px; }
+.fpim-avatar.lg { width: 48px; height: 48px; flex-basis: 48px; font-size: 16px; }
+
+/* ── 消息区 ───────────────────────────────────────────── */
+.fpim-main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  min-height: 0;
+  background: var(--im-bg-main);
+}
+
+.fpim-main-head {
+  height: 56px;
+  flex: 0 0 56px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  border-bottom: 0.5px solid var(--im-line);
+}
+
+.fpim-main-title {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.fpim-main-sub {
+  font-size: 12px;
+  color: var(--im-text-3);
+}
+
+.fpim-conn {
+  margin-left: auto;
+  font-size: 12px;
+  color: var(--im-text-3);
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.fpim-dot {
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--im-text-4);
+}
+.fpim-dot.on    { background: var(--im-success); }
+.fpim-dot.warn  { background: var(--im-warn); }
+
+.fpim-msg-scroll {
+  flex: 1;
+  overflow-y: auto;
+  padding: 16px 20px 8px;
+  min-height: 0;
+}
+
+.fpim-msg {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 16px;
+}
+
+.fpim-msg-body {
+  min-width: 0;
+  max-width: 70%;
+}
+
+.fpim-msg-meta {
+  font-size: 12px;
+  color: var(--im-text-3);
+  margin-bottom: 4px;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.fpim-bubble {
+  display: inline-block;
+  padding: 8px 12px;
+  border-radius: var(--im-radius-lg);
+  background: var(--im-bg-list);
+  color: var(--im-text-1);
+  font-size: 14px;
+  line-height: 1.7;
+  word-break: break-word;
+  white-space: pre-wrap;
+  max-width: 100%;
+}
+
+.fpim-msg.mine {
+  flex-direction: row-reverse;
+}
+.fpim-msg.mine .fpim-msg-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.fpim-msg.mine .fpim-bubble {
+  background: var(--im-primary);
+  color: #fff;
+}
+.fpim-msg.is-pending .fpim-bubble {
+  opacity: 0.62;
+}
+
+.fpim-msg-sep {
+  text-align: center;
+  font-size: 12px;
+  color: var(--im-text-3);
+  margin: 14px 0;
+}
+
+.fpim-sys {
+  text-align: center;
+  font-size: 12px;
+  color: var(--im-text-3);
+  margin: 12px 0;
+}
+.fpim-sys span {
+  background: var(--im-bg-list);
+  padding: 3px 10px;
+  border-radius: 10px;
+}
+
+/* 问题卡：会话里最重要的一种消息 */
+.fpim-issuecard {
+  border: 0.5px solid var(--im-line-strong);
+  border-left: 2px solid var(--im-primary);
+  border-radius: var(--im-radius);
+  padding: 12px 14px;
+  background: #fff;
+  max-width: 460px;
+}
+.fpim-issuecard h4 {
+  margin: 0 0 6px;
+  font-size: 14px;
+  font-weight: 600;
+}
+.fpim-issuecard .meta {
+  font-size: 12px;
+  color: var(--im-text-2);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+.fpim-issuecard .actions {
+  margin-top: 10px;
+  display: flex;
+  gap: 8px;
+}
+
+/* ── 输入区 ───────────────────────────────────────────── */
+.fpim-composer {
+  flex: 0 0 auto;
+  border-top: 0.5px solid var(--im-line);
+  padding: 10px 16px 14px;
+}
+
+.fpim-composer-tools {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  margin-bottom: 6px;
+}
+
+.fpim-iconbtn {
+  width: 28px;
+  height: 28px;
+  border: none;
+  background: transparent;
+  border-radius: var(--im-radius);
+  color: var(--im-text-2);
+  cursor: pointer;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fpim-iconbtn:hover {
+  background: var(--im-hover);
+  color: var(--im-text-1);
+}
+
+.fpim-composer textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  outline: none;
+  resize: none;
+  font-family: inherit;
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--im-text-1);
+  max-height: 140px;
+  min-height: 44px;
+  padding: 0;
+  background: transparent;
+}
+
+.fpim-composer-foot {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin-top: 6px;
+}
+
+.fpim-btn {
+  height: 30px;
+  padding: 0 14px;
+  border-radius: var(--im-radius);
+  border: 0.5px solid var(--im-line-strong);
+  background: #fff;
+  color: var(--im-text-1);
+  font-size: 13px;
+  cursor: pointer;
+}
+.fpim-btn:hover { background: var(--im-hover); }
+.fpim-btn.prim {
+  background: var(--im-primary);
+  border-color: var(--im-primary);
+  color: #fff;
+}
+.fpim-btn.prim:hover { background: var(--im-primary-hover); }
+.fpim-btn.prim:disabled { opacity: 0.45; cursor: default; }
+.fpim-btn.ghost { border-color: transparent; background: transparent; color: var(--im-text-2); }
+
+.fpim-hint {
+  font-size: 12px;
+  color: var(--im-text-3);
+  margin-left: auto;
+}
+
+/* ── 右侧问题面板 ─────────────────────────────────────── */
+.fpim-side {
+  width: 320px;
+  flex: 0 0 320px;
+  background: var(--im-bg-side);
+  border-left: 0.5px solid var(--im-line);
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+.fpim-side-head {
+  height: 56px;
+  flex: 0 0 56px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+  border-bottom: 0.5px solid var(--im-line);
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.fpim-side-scroll {
+  flex: 1;
+  overflow-y: auto;
+  padding: 14px 16px 24px;
+  min-height: 0;
+}
+
+.fpim-section {
+  margin-bottom: 20px;
+}
+.fpim-section h5 {
+  margin: 0 0 8px;
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--im-text-3);
+  letter-spacing: 0.4px;
+}
+
+.fpim-kv {
+  display: flex;
+  justify-content: space-between;
+  gap: 12px;
+  font-size: 13px;
+  padding: 5px 0;
+}
+.fpim-kv dt { color: var(--im-text-2); flex: 0 0 auto; }
+.fpim-kv dd { margin: 0; text-align: right; color: var(--im-text-1); min-width: 0; }
+
+.fpim-timeline {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 0 14px;
+  border-left: 0.5px solid var(--im-line-strong);
+}
+.fpim-timeline li {
+  position: relative;
+  padding: 0 0 14px 12px;
+  font-size: 13px;
+}
+.fpim-timeline li::before {
+  content: "";
+  position: absolute;
+  left: -17px;
+  top: 6px;
+  width: 6px;
+  height: 6px;
+  border-radius: 50%;
+  background: var(--im-text-4);
+}
+.fpim-timeline li.is-key::before { background: var(--im-primary); }
+.fpim-timeline .tl-time {
+  display: block;
+  font-size: 12px;
+  color: var(--im-text-3);
+}
+
+.fpim-empty {
+  color: var(--im-text-3);
+  font-size: 13px;
+  text-align: center;
+  padding: 40px 12px;
+}
+
+/* ── 附件气泡 ─────────────────────────────────────────── */
+.fpim-attach {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 10px 12px;
+  border: 0.5px solid var(--im-line-strong);
+  border-radius: var(--im-radius-lg);
+  background: #fff;
+  text-decoration: none;
+  color: var(--im-text-1);
+  max-width: 320px;
+}
+.fpim-attach:hover { border-color: var(--im-primary); }
+.fpim-attach .ext {
+  width: 32px;
+  height: 32px;
+  flex: 0 0 32px;
+  border-radius: var(--im-radius);
+  background: var(--im-primary-weak);
+  color: var(--im-primary);
+  font-size: 11px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-transform: uppercase;
+}
+.fpim-attach .nm {
+  font-size: 13px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.fpim-attach .sz { font-size: 12px; color: var(--im-text-3); }
+
+.fpim-img {
+  max-width: 260px;
+  max-height: 220px;
+  border-radius: var(--im-radius-lg);
+  display: block;
+  border: 0.5px solid var(--im-line);
+}
+
+/* ── 侧边栏「消息」未读角标（挂在既有 AppSidebar 的 .nav-button 上）── */
+.nav-button .nav-badge {
+  margin-left: auto;
+  min-width: 18px;
+  height: 18px;
+  padding: 0 5px;
+  border-radius: 9px;
+  background: #f54a45;
+  color: #fff;
+  font-size: 11px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px;
+  text-align: center;
+}
+.nav-button.active .nav-badge {
+  background: #fff;
+  color: #f54a45;
+}
+
+/* ── 表单标签（立项/解决对话框）── */
+.fpim-form-label {
+  margin-bottom: 6px;
+  font-size: 12px;
+  font-weight: 500;
+  color: var(--im-text-2);
+}
+
+/* ── 问题卡消息的选中反馈 ── */
+.fpim-issuecard {
+  border: 0.5px solid var(--im-line-strong);
+  border-left: 3px solid var(--im-brand);
+  border-radius: 8px;
+  padding: 10px 12px;
+  background: #fff;
+}

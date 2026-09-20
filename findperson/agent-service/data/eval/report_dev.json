@@ -1,0 +1,21 @@
+{
+ "split": "dev",
+ "baselines": {
+  "D": {
+   "metrics": {
+    "cases": 26,
+    "Intent Accuracy": 1.0,
+    "QueryType Accuracy": 1.0,
+    "Query→Concept Recall@3": 1.0,
+    "Structured Recall@3": 1.0,
+    "RAG Recall@5": 1.0,
+    "Candidate Recall@5": 0.9048,
+    "Final Top1": 0.619,
+    "Final Recall@3": 0.7619,
+    "OKF Citation Coverage": 1.0,
+    "Error Attribution": {}
+   },
+   "failed_cases": []
+  }
+ }
+}

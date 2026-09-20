@@ -1,0 +1,75 @@
+:root {
+  --el-color-primary: var(--blue);
+  --el-color-primary-light-3: #5f91e3;
+  --el-color-primary-light-5: #92b5ef;
+  --el-color-primary-light-7: #c7daf8;
+  --el-color-primary-light-8: #dbe8fb;
+  --el-color-primary-light-9: var(--blue-soft);
+  --el-color-primary-dark-2: var(--blue-strong);
+  --el-border-radius-base: var(--radius-sm);
+  --el-border-radius-small: 8px;
+  --el-font-family: "IBM Plex Sans", "PingFang SC", "Microsoft YaHei", sans-serif;
+}
+
+.el-button {
+  font-weight: 800;
+}
+
+.el-button--primary {
+  --el-button-bg-color: var(--blue);
+  --el-button-border-color: var(--blue);
+  --el-button-hover-bg-color: var(--blue-strong);
+  --el-button-hover-border-color: var(--blue-strong);
+}
+
+.el-input__wrapper,
+.el-textarea__inner,
+.el-select__wrapper {
+  border-radius: var(--radius-sm);
+  box-shadow: 0 0 0 1px var(--line) inset;
+}
+
+.el-input__inner,
+.el-input__inner:focus,
+.el-select__input,
+.el-select__input:focus {
+  min-height: auto;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  box-shadow: none;
+  outline: none;
+}
+
+.el-input__wrapper:hover,
+.el-textarea__inner:hover,
+.el-select__wrapper:hover {
+  box-shadow: 0 0 0 1px var(--blue-line) inset;
+}
+
+.el-input__wrapper.is-focus,
+.el-select__wrapper.is-focused,
+.el-textarea__inner:focus {
+  box-shadow: 0 0 0 1px var(--blue) inset;
+}
+
+.search-field:focus-within {
+  border-color: var(--blue-line);
+  box-shadow: none;
+}
+
+.el-dialog {
+  border-radius: var(--radius-lg);
+}
+
+.el-dialog__body {
+  padding-top: 8px;
+}
+
+.el-dropdown-menu__item {
+  font-weight: 700;
+}
+
+.el-form-item {
+  margin-bottom: 0;
+}

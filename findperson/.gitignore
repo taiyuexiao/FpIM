@@ -1,0 +1,31 @@
+node_modules/
+dist/
+.DS_Store
+npm-debug.log*
+
+# Keep implementation plans and local Codex scratch assets out of the source repo.
+/方案/
+/.codex_tmp_*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+*.egg-info/
+build/
+.pytest_cache/
+.mypy_cache/
+*.log
+Thumbs.db
+
+# 环境变量(含口令,不入库;.env.example 只放占位符)
+.env
+
+agent-service/data/*.dump
+
+# 本地覆盖(Vite/git 惯例):可放本地口令等,不入库
+# 例:.env.fpim.local 放 VITE_DEMO_PASSWORD(仅 --mode fpim 开发时生效)
+*.local
+.env.*.local

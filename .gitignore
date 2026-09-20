@@ -1,0 +1,30 @@
+# ── 系统 ──
+.DS_Store
+Thumbs.db
+
+# ── 编辑器 / IDE ──
+.idea/
+.vscode/
+*.swp
+
+# ── 依赖与构建产物（findperson/ 内部另有 .gitignore，这里是兜底）──
+node_modules/
+dist/
+build/
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# ── 环境变量（含数据库口令，不入库）──
+.env
+.env.local
+*.log
+
+# ── 运行时产物 ──
+/tmp-files/
+findperson/.vite/

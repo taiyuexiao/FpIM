@@ -1,0 +1,477 @@
+[
+ {
+  "query": "谁比较懂云原生?",
+  "intent": "find_person",
+  "query_type": "expert_finding",
+  "gold": {
+   "person_ids": [
+    "p-0003",
+    "p-0004",
+    "p-0006",
+    "p-0008",
+    "p-0013",
+    "p-0015",
+    "p-0017",
+    "p-0020",
+    "p-0174"
+   ],
+   "concept_names": [
+    "云原生"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0000"
+ },
+ {
+  "query": "谁比较懂等保测评?",
+  "intent": "find_person",
+  "query_type": "expert_finding",
+  "gold": {
+   "person_ids": [
+    "p-0009",
+    "p-0013",
+    "p-0019",
+    "p-0029",
+    "p-0036",
+    "p-0041",
+    "p-0042",
+    "p-0048"
+   ],
+   "concept_names": [
+    "等保测评"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0001"
+ },
+ {
+  "query": "谁比较懂RPA?",
+  "intent": "find_person",
+  "query_type": "expert_finding",
+  "gold": {
+   "person_ids": [
+    "p-0003",
+    "p-0004",
+    "p-0007",
+    "p-0015",
+    "p-0020",
+    "p-0022",
+    "p-0032",
+    "p-0034",
+    "p-0103"
+   ],
+   "concept_names": [
+    "RPA"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0002"
+ },
+ {
+  "query": "谁比较懂指标口径?",
+  "intent": "find_person",
+  "query_type": "expert_finding",
+  "gold": {
+   "person_ids": [
+    "p-0001",
+    "p-0002",
+    "p-0005",
+    "p-0010",
+    "p-0011",
+    "p-0021",
+    "p-0023",
+    "p-0025"
+   ],
+   "concept_names": [
+    "指标口径"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0003"
+ },
+ {
+  "query": "谁比较懂数据仓库?",
+  "intent": "find_person",
+  "query_type": "expert_finding",
+  "gold": {
+   "person_ids": [
+    "p-0001",
+    "p-0002",
+    "p-0005",
+    "p-0007",
+    "p-0010",
+    "p-0011",
+    "p-0012",
+    "p-0021",
+    "p-0058"
+   ],
+   "concept_names": [
+    "数据仓库"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0004"
+ },
+ {
+  "query": "谁负责数据报表?",
+  "intent": "find_person",
+  "query_type": "explicit_responsibility",
+  "gold": {
+   "person_ids": [
+    "p-0001",
+    "p-0002",
+    "p-0005",
+    "p-0010",
+    "p-0011",
+    "p-0018",
+    "p-0021",
+    "p-0023"
+   ],
+   "concept_names": [
+    "数据报表"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0010"
+ },
+ {
+  "query": "谁负责云原生?",
+  "intent": "find_person",
+  "query_type": "explicit_responsibility",
+  "gold": {
+   "person_ids": [
+    "p-0003",
+    "p-0004",
+    "p-0006",
+    "p-0008",
+    "p-0013",
+    "p-0015",
+    "p-0017",
+    "p-0020",
+    "p-0174"
+   ],
+   "concept_names": [
+    "云原生"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0011"
+ },
+ {
+  "query": "谁负责等保测评?",
+  "intent": "find_person",
+  "query_type": "explicit_responsibility",
+  "gold": {
+   "person_ids": [
+    "p-0009",
+    "p-0013",
+    "p-0019",
+    "p-0029",
+    "p-0036",
+    "p-0041",
+    "p-0042",
+    "p-0048"
+   ],
+   "concept_names": [
+    "等保测评"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0012"
+ },
+ {
+  "query": "谁负责数据治理?",
+  "intent": "find_person",
+  "query_type": "explicit_responsibility",
+  "gold": {
+   "person_ids": [
+    "p-0001",
+    "p-0002",
+    "p-0005",
+    "p-0010",
+    "p-0011",
+    "p-0016",
+    "p-0021",
+    "p-0023"
+   ],
+   "concept_names": [
+    "数据治理"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0013"
+ },
+ {
+  "query": "谁负责指标口径?",
+  "intent": "find_person",
+  "query_type": "explicit_responsibility",
+  "gold": {
+   "person_ids": [
+    "p-0001",
+    "p-0002",
+    "p-0005",
+    "p-0010",
+    "p-0011",
+    "p-0021",
+    "p-0023",
+    "p-0025"
+   ],
+   "concept_names": [
+    "指标口径"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0014"
+ },
+ {
+  "query": "统一身份认证接入指南的主要内容是什么?",
+  "intent": "knowledge_qa",
+  "query_type": null,
+  "gold": {
+   "person_ids": [],
+   "concept_names": [],
+   "document_ids": [
+    "content-content-0002"
+   ]
+  },
+  "id": "eval-0020"
+ },
+ {
+  "query": "风控模型上线审批流程的主要内容是什么?",
+  "intent": "knowledge_qa",
+  "query_type": null,
+  "gold": {
+   "person_ids": [],
+   "concept_names": [],
+   "document_ids": [
+    "content-content-0004"
+   ]
+  },
+  "id": "eval-0021"
+ },
+ {
+  "query": "区块链供应链金融应用实践的主要内容是什么?",
+  "intent": "knowledge_qa",
+  "query_type": null,
+  "gold": {
+   "person_ids": [],
+   "concept_names": [],
+   "document_ids": [
+    "content-content-0003"
+   ]
+  },
+  "id": "eval-0022"
+ },
+ {
+  "query": "等保测评相关事务的处理时限和升级路径是什么?",
+  "intent": "knowledge_qa",
+  "query_type": null,
+  "gold": {
+   "person_ids": [],
+   "concept_names": [],
+   "document_ids": []
+  },
+  "id": "eval-0023"
+ },
+ {
+  "query": "风险管理相关事务的处理时限和升级路径是什么?",
+  "intent": "knowledge_qa",
+  "query_type": null,
+  "gold": {
+   "person_ids": [],
+   "concept_names": [],
+   "document_ids": []
+  },
+  "id": "eval-0024"
+ },
+ {
+  "query": "贾桂荣的电话是多少?",
+  "intent": "find_person",
+  "query_type": "contact_lookup",
+  "gold": {
+   "person_ids": [
+    "p-0058"
+   ],
+   "concept_names": [],
+   "document_ids": []
+  },
+  "id": "eval-0030"
+ },
+ {
+  "query": "佘阳的电话是多少?",
+  "intent": "find_person",
+  "query_type": "contact_lookup",
+  "gold": {
+   "person_ids": [
+    "p-0045"
+   ],
+   "concept_names": [],
+   "document_ids": []
+  },
+  "id": "eval-0031"
+ },
+ {
+  "query": "王想的电话是多少?",
+  "intent": "find_person",
+  "query_type": "contact_lookup",
+  "gold": {
+   "person_ids": [
+    "p-0115"
+   ],
+   "concept_names": [],
+   "document_ids": []
+  },
+  "id": "eval-0032"
+ },
+ {
+  "query": "郭岩的电话是多少?",
+  "intent": "find_person",
+  "query_type": "contact_lookup",
+  "gold": {
+   "person_ids": [
+    "p-0126"
+   ],
+   "concept_names": [],
+   "document_ids": []
+  },
+  "id": "eval-0033"
+ },
+ {
+  "query": "李英的电话是多少?",
+  "intent": "find_person",
+  "query_type": "contact_lookup",
+  "gold": {
+   "person_ids": [
+    "p-0013"
+   ],
+   "concept_names": [],
+   "document_ids": []
+  },
+  "id": "eval-0034"
+ },
+ {
+  "query": "万帅的电话是多少?",
+  "intent": "find_person",
+  "query_type": "contact_lookup",
+  "gold": {
+   "person_ids": [
+    "p-0016"
+   ],
+   "concept_names": [],
+   "document_ids": []
+  },
+  "id": "eval-0035"
+ },
+ {
+  "query": "安全合规相关的系统最近老是超时,该找谁?",
+  "intent": "find_person",
+  "query_type": "diagnostic",
+  "gold": {
+   "person_ids": [
+    "p-0014",
+    "p-0016",
+    "p-0019",
+    "p-0036",
+    "p-0041",
+    "p-0042",
+    "p-0045",
+    "p-0048"
+   ],
+   "concept_names": [
+    "安全合规"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0042"
+ },
+ {
+  "query": "等保测评相关的系统最近老是超时,该找谁?",
+  "intent": "find_person",
+  "query_type": "diagnostic",
+  "gold": {
+   "person_ids": [
+    "p-0009",
+    "p-0013",
+    "p-0019",
+    "p-0029",
+    "p-0036",
+    "p-0041",
+    "p-0042",
+    "p-0048"
+   ],
+   "concept_names": [
+    "等保测评"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0043"
+ },
+ {
+  "query": "金融市场平台好像出故障了,响应特别慢,找谁处理?",
+  "intent": "find_person",
+  "query_type": "diagnostic",
+  "gold": {
+   "person_ids": [
+    "p-0026",
+    "p-0027",
+    "p-0028",
+    "p-0033",
+    "p-0038",
+    "p-0043",
+    "p-0045",
+    "p-0055",
+    "p-0122",
+    "p-0222"
+   ],
+   "concept_names": [
+    "金融市场"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0044"
+ },
+ {
+  "query": "指标口径平台好像出故障了,响应特别慢,找谁处理?",
+  "intent": "find_person",
+  "query_type": "diagnostic",
+  "gold": {
+   "person_ids": [
+    "p-0001",
+    "p-0002",
+    "p-0005",
+    "p-0010",
+    "p-0011",
+    "p-0021",
+    "p-0023",
+    "p-0025"
+   ],
+   "concept_names": [
+    "指标口径"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0045"
+ },
+ {
+  "query": "数据治理平台好像出故障了,响应特别慢,找谁处理?",
+  "intent": "find_person",
+  "query_type": "diagnostic",
+  "gold": {
+   "person_ids": [
+    "p-0001",
+    "p-0002",
+    "p-0005",
+    "p-0010",
+    "p-0011",
+    "p-0016",
+    "p-0021",
+    "p-0023"
+   ],
+   "concept_names": [
+    "数据治理"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0046"
+ }
+]

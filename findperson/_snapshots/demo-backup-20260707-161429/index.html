@@ -1,0 +1,420 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>首问责任平台 Demo</title>
+    <link rel="stylesheet" href="assets/main.css">
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar" id="app-sidebar">
+        <div class="brand">
+          <span class="brand-mark" aria-hidden="true">
+            <img src="assets/logo.png" alt="">
+          </span>
+          <div>
+            <strong>首问责任平台</strong>
+            <span>展示型交互 Demo</span>
+          </div>
+        </div>
+
+        <nav class="sidebar-nav" aria-label="页面导航">
+          <button class="nav-button active" data-view="ask" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 5h16v10H7l-3 4z"/></svg>
+            <span>智能问答</span>
+          </button>
+          <button class="nav-button" data-view="directory" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7 7h10M7 12h10M7 17h6"/><rect x="4" y="3" width="16" height="18" rx="3"/></svg>
+            <span>名片库</span>
+          </button>
+          <button class="nav-button" data-view="mine" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 12a4 4 0 1 0 0-8 4 4 0 0 0 0 8Z"/><path d="M4 20a8 8 0 0 1 16 0"/></svg>
+            <span>个人中心</span>
+          </button>
+          <button class="nav-button" data-view="admin" type="button">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 19V5"/><path d="M8 17V9M12 17V7M16 17v-5M20 17V4"/><path d="M3 19h18"/></svg>
+            <span>后台管理</span>
+          </button>
+        </nav>
+
+      </aside>
+
+      <main class="main-panel">
+        <div class="main-topbar">
+          <button class="operator avatar-button" id="avatar-entry" type="button" aria-label="进入个人中心">
+            <span class="avatar">林</span>
+            <span class="operator-copy">
+              <strong>林知夏</strong>
+            </span>
+          </button>
+          <div class="avatar-menu" id="avatar-menu" hidden>
+            <button type="button" data-avatar-action="mine">个人中心</button>
+            <button type="button" data-avatar-action="password">修改密码</button>
+            <button type="button" data-avatar-action="manual">操作手册</button>
+            <button type="button" data-avatar-action="logout">退出登录</button>
+            <button type="button" data-avatar-action="login" hidden>登录</button>
+          </div>
+        </div>
+
+        <div class="main-content">
+        <section class="view" id="view-login">
+          <div class="login-shell">
+            <div class="login-panel">
+              <div class="login-brand">
+                <span class="brand-mark" aria-hidden="true">
+                  <img src="assets/logo.png" alt="">
+                </span>
+                <div>
+                  <h1>欢迎进入首问责任平台</h1>
+                  <p>支持用户名或手机号 + 密码登录，进入后可体验问答、名片库、内容检索与运营看板。</p>
+                </div>
+              </div>
+              <form id="login-form" class="login-form">
+                <label>
+                  用户名/手机号
+                  <input name="account" placeholder="例如：linzhixia / 13800001206" required>
+                </label>
+                <label>
+                  密码
+                  <input name="password" type="password" placeholder="请输入密码" required>
+                </label>
+                <div class="login-actions">
+                  <button class="primary-button" type="submit">登录平台</button>
+                  <span id="login-status" role="status"></span>
+                </div>
+              </form>
+              <div class="login-tips">
+                <span>演示账号：林知夏 / 13800001206</span>
+                <span>演示密码：123456</span>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="view active" id="view-ask" aria-labelledby="view-title">
+          <div class="ask-workspace" id="ask-workspace">
+            <aside class="conversation-sidebar" id="conversation-sidebar">
+              <div class="panel-header">
+                <div><h2>历史对话</h2></div>
+                <div class="history-actions">
+                  <button class="secondary-button small-button icon-button" id="conversation-search-trigger" type="button" aria-label="搜索历史对话">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 4 4"/></svg>
+                  </button>
+                  <button class="secondary-button small-button" id="new-chat-button" type="button">新对话</button>
+                </div>
+              </div>
+              <div class="history-search-popover" id="history-search-popover" hidden>
+                <div class="history-search-panel">
+                  <div class="history-search-input-wrap">
+                    <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 4 4"/></svg>
+                    <input id="conversation-search" type="search" placeholder="搜索历史对话">
+                    <button class="history-search-close" id="conversation-search-close" type="button" aria-label="关闭搜索">Esc</button>
+                  </div>
+                  <div class="history-search-results" id="conversation-search-results"></div>
+                </div>
+              </div>
+              <div id="conversation-history" class="conversation-history">
+                <div class="empty-state compact">先提一个问题，工作台会在这里展示会话记录。</div>
+              </div>
+            </aside>
+
+            <section class="chat-shell" id="chat-shell">
+              <div class="chat-topbar">
+                <div><h1 id="view-title">智能问答</h1></div>
+                <button class="topbar-icon-button ask-detail-toggle" id="detail-sidebar-toggle" type="button" aria-label="显示右侧详情栏" aria-expanded="false">
+                  <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="4" y="5" width="16" height="14" rx="2"/><path d="M14 5v14"/></svg>
+                </button>
+              </div>
+
+              <div class="chat-main">
+                <div class="chat-hero" id="chat-hero">
+                  <div class="sample-row home-samples" aria-label="示例问题">
+                    <div class="chat-entry-title">开始对话</div>
+                  </div>
+                </div>
+
+                <div class="chat-thread-panel">
+                  <div id="assistant-thread" class="thread-list"></div>
+                </div>
+              </div>
+
+              <div class="chat-composer-wrap">
+                <div class="ask-composer chat-composer" role="search">
+                  <textarea id="question-input" rows="3" aria-label="输入首问问题" placeholder="例如：我想申请大模型 Key，应该找谁？"></textarea>
+                  <div class="composer-actions">
+                    <span>支持问题找人、信息维护、内容发布、评价补充</span>
+                    <button id="ask-button" class="primary-button" type="button">
+                      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path d="m13 6 6 6-6 6"/></svg>
+                      发送
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <aside class="detail-sidebar" id="detail-sidebar">
+              <div id="detail-panel" class="detail-panel">
+                <div class="detail-empty">
+                  <div class="detail-panel-top">
+                    <div class="detail-panel-label">详情面板</div>
+                    <button class="detail-close-button" data-close-detail type="button" aria-label="收起详情面板">
+                      <span>收起</span>
+                      <strong>×</strong>
+                    </button>
+                  </div>
+                  <div class="detail-empty-copy">
+                    <h2>右侧详情</h2>
+                    <p>点击问答里的人员卡片或内容卡片，就可以在这里展开查看。</p>
+                  </div>
+                </div>
+              </div>
+            </aside>
+          </div>
+        </section>
+
+        <section class="view" id="view-directory">
+          <div class="page-heading">
+            <div><h1>名片库</h1></div>
+          </div>
+          <div class="toolbar">
+            <div class="search-field">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 4 4"/></svg>
+              <input id="directory-search" type="search" placeholder="搜索关键词、人员、职责">
+            </div>
+            <div class="toolbar-filters triple-filter">
+              <select id="department-level-1" aria-label="按一级部门筛选"></select>
+              <select id="department-level-2" aria-label="按二级部门筛选"></select>
+              <select id="department-level-3" aria-label="按三级部门筛选"></select>
+            </div>
+          </div>
+          <div id="directory-list" class="card-grid"></div>
+        </section>
+
+        <section class="view" id="view-mine">
+          <div class="page-heading">
+            <div><h1>个人中心</h1></div>
+          </div>
+          <div id="mine-summary" class="profile-detail"></div>
+          <form id="mine-form" class="form-grid">
+            <label>
+              姓名
+              <input name="name" required>
+            </label>
+            <label>
+              科室部门
+              <input name="department" required>
+            </label>
+            <label>
+              职级/岗位
+              <input name="role" required>
+            </label>
+            <label>
+              联系方式
+              <input name="contact" required>
+            </label>
+            <label class="wide">
+              负责领域
+              <input name="domains" placeholder="用顿号或逗号分隔">
+            </label>
+            <label class="wide">
+              自画像
+              <textarea name="selfPortrait" rows="5"></textarea>
+            </label>
+            <div class="form-actions wide">
+              <button type="button" class="secondary-button" id="cancel-edit-profile">取消编辑</button>
+              <button type="submit" class="primary-button">保存主页</button>
+              <span id="mine-save-status" role="status"></span>
+            </div>
+          </form>
+        </section>
+
+        <section class="view" id="view-manual">
+          <div class="page-heading">
+            <div>
+              <h1>操作手册</h1>
+            </div>
+          </div>
+          <div id="manual-list" class="manual-grid"></div>
+        </section>
+
+        <section class="view" id="view-profile">
+          <div id="profile-detail" class="profile-detail"></div>
+        </section>
+
+        <section class="view" id="view-review">
+          <div class="page-heading">
+            <button class="secondary-button" data-back-button type="button">返回</button>
+            <div><h1>为他人画像</h1></div>
+          </div>
+          <form id="peer-review-form" class="form-grid">
+            <label>
+              评价对象
+              <select name="personId" id="review-person"></select>
+            </label>
+            <label>
+              评价日期
+              <input name="date" id="review-date" type="date" required>
+            </label>
+            <label class="wide">
+              他画像评价
+              <textarea name="text" rows="5" placeholder="例如：熟悉大模型平台接入流程，响应很快，适合咨询 Key 申请和模型调用问题。" required></textarea>
+            </label>
+            <div class="form-actions wide">
+              <button type="submit" class="primary-button">提交评价</button>
+              <button type="button" class="secondary-button" id="cancel-peer-review">取消</button>
+              <span id="review-save-status" role="status"></span>
+            </div>
+          </form>
+          <div class="profile-detail review-history-panel">
+            <section>
+              <h2>已发出的评价</h2>
+              <div id="sent-review-list" class="sent-review-list"></div>
+            </section>
+          </div>
+        </section>
+
+        <section class="view" id="view-publish">
+          <div class="page-heading">
+            <button class="secondary-button" data-back-button type="button">返回</button>
+            <div><h1>内容发布</h1></div>
+          </div>
+          <div class="publish-layout">
+            <form id="content-form" class="form-grid compact">
+              <label>
+                标题
+                <input name="title" required>
+              </label>
+              <label>
+                关联领域
+                <input name="tags" placeholder="例如 大模型、Key 申请">
+              </label>
+              <label>
+                发布人
+                <select name="ownerId" id="content-owner"></select>
+              </label>
+              <label class="wide">
+                内容摘要
+                <textarea name="summary" rows="3" required></textarea>
+              </label>
+              <label class="wide">
+                发布内容
+                <textarea name="body" rows="8" required></textarea>
+              </label>
+              <div class="form-actions wide">
+                <button type="button" class="secondary-button" id="delete-content-button" hidden>删除内容</button>
+                <button type="submit" class="primary-button">发布内容</button>
+                <span id="content-save-status" role="status"></span>
+              </div>
+            </form>
+          </div>
+        </section>
+
+        <section class="view" id="view-contentDetail">
+          <article id="content-detail" class="content-detail"></article>
+        </section>
+
+        <section class="view" id="view-contentSearch">
+          <div class="page-heading">
+            <div><h1>内容检索</h1></div>
+          </div>
+          <div class="toolbar content-toolbar">
+            <div class="search-field">
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m16 16 4 4"/></svg>
+              <input id="content-search" type="search" placeholder="搜索标题、摘要、标签、正文">
+            </div>
+            <div class="toolbar-filters content-filters">
+              <select id="content-type-filter" aria-label="按类型筛选"></select>
+              <select id="content-owner-filter" aria-label="按发布人筛选"></select>
+              <select id="content-pin-filter" aria-label="按置顶状态筛选">
+                <option value="all">全部内容</option>
+                <option value="pinned">只看置顶</option>
+                <option value="normal">只看未置顶</option>
+              </select>
+            </div>
+          </div>
+          <div id="content-search-list" class="content-search-list"></div>
+        </section>
+
+        <section class="view" id="view-admin">
+          <div class="page-heading admin-heading">
+            <div><h1>后台管理</h1></div>
+          </div>
+          <div class="admin-grid">
+            <div class="metric-card primary-metric">
+              <span>参与人员数量</span>
+              <strong id="metric-people"></strong>
+            </div>
+            <div class="metric-card">
+              <span>发布内容数量</span>
+              <strong id="metric-content"></strong>
+            </div>
+            <div class="metric-card">
+              <span>覆盖领域数</span>
+              <strong id="metric-weekly-queries"></strong>
+            </div>
+            <div class="metric-card">
+              <span>本周推荐量</span>
+              <strong id="metric-weekly-recommendations"></strong>
+            </div>
+          </div>
+          <div class="admin-layout">
+            <div>
+              <div class="module-title">
+                <div><h2>本周推荐热度排行</h2></div>
+              </div>
+              <div id="recommend-rank-list" class="governance-list"></div>
+            </div>
+            <div>
+              <div class="module-title">
+                <div><h2>周日活数</h2></div>
+                <div class="week-switcher" id="admin-week-switcher">
+                  <button class="secondary-button small-button icon-button" data-admin-week="prev" type="button" aria-label="查看上周">‹</button>
+                  <span id="admin-week-label">本周</span>
+                  <button class="secondary-button small-button icon-button" data-admin-week="next" type="button" aria-label="查看本周">›</button>
+                </div>
+              </div>
+              <div id="query-trend-panel" class="activity-panel trend-panel"></div>
+            </div>
+          </div>
+        </section>
+        </div>
+      </main>
+    </div>
+
+    <div class="modal-layer" id="password-modal" hidden>
+      <div class="modal-card">
+        <div class="modal-head">
+          <div>
+            <h2>修改密码</h2>
+            <p>支持原密码校验、新密码确认和提交提示。</p>
+          </div>
+          <button class="topbar-icon-button" id="password-modal-close" type="button" aria-label="关闭修改密码弹窗">
+            <strong>×</strong>
+          </button>
+        </div>
+        <form id="password-form" class="form-grid compact-form">
+          <label class="wide">
+            原密码
+            <input name="currentPassword" type="password" required>
+          </label>
+          <label class="wide">
+            新密码
+            <input name="nextPassword" type="password" minlength="6" required>
+          </label>
+          <label class="wide">
+            确认新密码
+            <input name="confirmPassword" type="password" minlength="6" required>
+          </label>
+          <div class="form-actions wide">
+            <button class="secondary-button" id="password-cancel" type="button">取消</button>
+            <button class="primary-button" type="submit">确认修改</button>
+            <span id="password-status" role="status"></span>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <script src="assets/main.js"></script>
+  </body>
+</html>
