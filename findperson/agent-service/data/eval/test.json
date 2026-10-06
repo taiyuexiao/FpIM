@@ -1,0 +1,476 @@
+[
+ {
+  "query": "谁比较懂安全合规?",
+  "intent": "find_person",
+  "query_type": "expert_finding",
+  "gold": {
+   "person_ids": [
+    "p-0014",
+    "p-0016",
+    "p-0019",
+    "p-0036",
+    "p-0041",
+    "p-0042",
+    "p-0045",
+    "p-0048"
+   ],
+   "concept_names": [
+    "安全合规"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0005"
+ },
+ {
+  "query": "谁比较懂智能客服?",
+  "intent": "find_person",
+  "query_type": "expert_finding",
+  "gold": {
+   "person_ids": [
+    "p-0003",
+    "p-0015",
+    "p-0020",
+    "p-0033",
+    "p-0038",
+    "p-0045",
+    "p-0046",
+    "p-0062"
+   ],
+   "concept_names": [
+    "智能客服"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0006"
+ },
+ {
+  "query": "谁比较懂金融市场?",
+  "intent": "find_person",
+  "query_type": "expert_finding",
+  "gold": {
+   "person_ids": [
+    "p-0026",
+    "p-0027",
+    "p-0028",
+    "p-0033",
+    "p-0038",
+    "p-0043",
+    "p-0045",
+    "p-0055",
+    "p-0122",
+    "p-0222"
+   ],
+   "concept_names": [
+    "金融市场"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0007"
+ },
+ {
+  "query": "谁比较懂数据治理?",
+  "intent": "find_person",
+  "query_type": "expert_finding",
+  "gold": {
+   "person_ids": [
+    "p-0001",
+    "p-0002",
+    "p-0005",
+    "p-0010",
+    "p-0011",
+    "p-0016",
+    "p-0021",
+    "p-0023"
+   ],
+   "concept_names": [
+    "数据治理"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0008"
+ },
+ {
+  "query": "谁比较懂数据报表?",
+  "intent": "find_person",
+  "query_type": "expert_finding",
+  "gold": {
+   "person_ids": [
+    "p-0001",
+    "p-0002",
+    "p-0005",
+    "p-0010",
+    "p-0011",
+    "p-0018",
+    "p-0021",
+    "p-0023"
+   ],
+   "concept_names": [
+    "数据报表"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0009"
+ },
+ {
+  "query": "谁负责智能客服?",
+  "intent": "find_person",
+  "query_type": "explicit_responsibility",
+  "gold": {
+   "person_ids": [
+    "p-0003",
+    "p-0015",
+    "p-0020",
+    "p-0033",
+    "p-0038",
+    "p-0045",
+    "p-0046",
+    "p-0062"
+   ],
+   "concept_names": [
+    "智能客服"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0015"
+ },
+ {
+  "query": "谁负责数据仓库?",
+  "intent": "find_person",
+  "query_type": "explicit_responsibility",
+  "gold": {
+   "person_ids": [
+    "p-0001",
+    "p-0002",
+    "p-0005",
+    "p-0007",
+    "p-0010",
+    "p-0011",
+    "p-0012",
+    "p-0021",
+    "p-0058"
+   ],
+   "concept_names": [
+    "数据仓库"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0016"
+ },
+ {
+  "query": "谁负责安全合规?",
+  "intent": "find_person",
+  "query_type": "explicit_responsibility",
+  "gold": {
+   "person_ids": [
+    "p-0014",
+    "p-0016",
+    "p-0019",
+    "p-0036",
+    "p-0041",
+    "p-0042",
+    "p-0045",
+    "p-0048"
+   ],
+   "concept_names": [
+    "安全合规"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0017"
+ },
+ {
+  "query": "谁负责RPA?",
+  "intent": "find_person",
+  "query_type": "explicit_responsibility",
+  "gold": {
+   "person_ids": [
+    "p-0003",
+    "p-0004",
+    "p-0007",
+    "p-0015",
+    "p-0020",
+    "p-0022",
+    "p-0032",
+    "p-0034",
+    "p-0103"
+   ],
+   "concept_names": [
+    "RPA"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0018"
+ },
+ {
+  "query": "谁负责金融市场?",
+  "intent": "find_person",
+  "query_type": "explicit_responsibility",
+  "gold": {
+   "person_ids": [
+    "p-0026",
+    "p-0027",
+    "p-0028",
+    "p-0033",
+    "p-0038",
+    "p-0043",
+    "p-0045",
+    "p-0055",
+    "p-0122",
+    "p-0222"
+   ],
+   "concept_names": [
+    "金融市场"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0019"
+ },
+ {
+  "query": "安全合规相关事务的处理时限和升级路径是什么?",
+  "intent": "knowledge_qa",
+  "query_type": null,
+  "gold": {
+   "person_ids": [],
+   "concept_names": [],
+   "document_ids": []
+  },
+  "id": "eval-0025"
+ },
+ {
+  "query": "安全合规相关事务的处理时限和升级路径是什么?",
+  "intent": "knowledge_qa",
+  "query_type": null,
+  "gold": {
+   "person_ids": [],
+   "concept_names": [],
+   "document_ids": []
+  },
+  "id": "eval-0026"
+ },
+ {
+  "query": "数据仓库相关事务的处理时限和升级路径是什么?",
+  "intent": "knowledge_qa",
+  "query_type": null,
+  "gold": {
+   "person_ids": [],
+   "concept_names": [],
+   "document_ids": []
+  },
+  "id": "eval-0027"
+ },
+ {
+  "query": "金融市场相关事务的处理时限和升级路径是什么?",
+  "intent": "knowledge_qa",
+  "query_type": null,
+  "gold": {
+   "person_ids": [],
+   "concept_names": [],
+   "document_ids": []
+  },
+  "id": "eval-0028"
+ },
+ {
+  "query": "统一身份认证接入指南的主要内容是什么?",
+  "intent": "knowledge_qa",
+  "query_type": null,
+  "gold": {
+   "person_ids": [],
+   "concept_names": [],
+   "document_ids": [
+    "content-content-0001"
+   ]
+  },
+  "id": "eval-0029"
+ },
+ {
+  "query": "费阳的电话是多少?",
+  "intent": "find_person",
+  "query_type": "contact_lookup",
+  "gold": {
+   "person_ids": [
+    "p-0280"
+   ],
+   "concept_names": [],
+   "document_ids": []
+  },
+  "id": "eval-0036"
+ },
+ {
+  "query": "邓斌的电话是多少?",
+  "intent": "find_person",
+  "query_type": "contact_lookup",
+  "gold": {
+   "person_ids": [
+    "p-0141"
+   ],
+   "concept_names": [],
+   "document_ids": []
+  },
+  "id": "eval-0037"
+ },
+ {
+  "query": "纪淑英的电话是多少?",
+  "intent": "find_person",
+  "query_type": "contact_lookup",
+  "gold": {
+   "person_ids": [
+    "p-0072"
+   ],
+   "concept_names": [],
+   "document_ids": []
+  },
+  "id": "eval-0038"
+ },
+ {
+  "query": "王飞的电话是多少?",
+  "intent": "find_person",
+  "query_type": "contact_lookup",
+  "gold": {
+   "person_ids": [
+    "p-0053"
+   ],
+   "concept_names": [],
+   "document_ids": []
+  },
+  "id": "eval-0039"
+ },
+ {
+  "query": "程阳的电话是多少?",
+  "intent": "find_person",
+  "query_type": "contact_lookup",
+  "gold": {
+   "person_ids": [
+    "p-0217"
+   ],
+   "concept_names": [],
+   "document_ids": []
+  },
+  "id": "eval-0040"
+ },
+ {
+  "query": "陈云的电话是多少?",
+  "intent": "find_person",
+  "query_type": "contact_lookup",
+  "gold": {
+   "person_ids": [
+    "p-0017"
+   ],
+   "concept_names": [],
+   "document_ids": []
+  },
+  "id": "eval-0041"
+ },
+ {
+  "query": "数据仓库相关的系统最近老是超时,该找谁?",
+  "intent": "find_person",
+  "query_type": "diagnostic",
+  "gold": {
+   "person_ids": [
+    "p-0001",
+    "p-0002",
+    "p-0005",
+    "p-0007",
+    "p-0010",
+    "p-0011",
+    "p-0012",
+    "p-0021",
+    "p-0058"
+   ],
+   "concept_names": [
+    "数据仓库"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0047"
+ },
+ {
+  "query": "智能客服相关的系统最近老是超时,该找谁?",
+  "intent": "find_person",
+  "query_type": "diagnostic",
+  "gold": {
+   "person_ids": [
+    "p-0003",
+    "p-0015",
+    "p-0020",
+    "p-0033",
+    "p-0038",
+    "p-0045",
+    "p-0046",
+    "p-0062"
+   ],
+   "concept_names": [
+    "智能客服"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0048"
+ },
+ {
+  "query": "数据报表相关的系统最近老是超时,该找谁?",
+  "intent": "find_person",
+  "query_type": "diagnostic",
+  "gold": {
+   "person_ids": [
+    "p-0001",
+    "p-0002",
+    "p-0005",
+    "p-0010",
+    "p-0011",
+    "p-0018",
+    "p-0021",
+    "p-0023"
+   ],
+   "concept_names": [
+    "数据报表"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0049"
+ },
+ {
+  "query": "RPA相关的系统最近老是超时,该找谁?",
+  "intent": "find_person",
+  "query_type": "diagnostic",
+  "gold": {
+   "person_ids": [
+    "p-0003",
+    "p-0004",
+    "p-0007",
+    "p-0015",
+    "p-0020",
+    "p-0022",
+    "p-0032",
+    "p-0034",
+    "p-0103"
+   ],
+   "concept_names": [
+    "RPA"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0050"
+ },
+ {
+  "query": "云原生相关的系统最近老是超时,该找谁?",
+  "intent": "find_person",
+  "query_type": "diagnostic",
+  "gold": {
+   "person_ids": [
+    "p-0003",
+    "p-0004",
+    "p-0006",
+    "p-0008",
+    "p-0013",
+    "p-0015",
+    "p-0017",
+    "p-0020",
+    "p-0174"
+   ],
+   "concept_names": [
+    "云原生"
+   ],
+   "document_ids": []
+  },
+  "id": "eval-0051"
+ }
+]

@@ -1,0 +1,317 @@
+{
+ "split": "test",
+ "baselines": {
+  "A": {
+   "metrics": {
+    "cases": 26,
+    "Intent Accuracy": 1.0,
+    "QueryType Accuracy": 1.0,
+    "Query→Concept Recall@3": 1.0,
+    "Structured Recall@3": 0.7143,
+    "RAG Recall@5": 0.0,
+    "Candidate Recall@5": 0.7143,
+    "Final Top1": 0.7143,
+    "Final Recall@3": 0.7143,
+    "OKF Citation Coverage": 0.0,
+    "Error Attribution": {
+     "rag_recall_error": 1,
+     "structured_recall_error": 6
+    }
+   },
+   "failed_cases": [
+    {
+     "id": "eval-0029",
+     "query": "统一身份认证接入指南的主要内容是什么?",
+     "attribution": "rag_recall_error"
+    },
+    {
+     "id": "eval-0036",
+     "query": "费阳的电话是多少?",
+     "attribution": "structured_recall_error"
+    },
+    {
+     "id": "eval-0037",
+     "query": "邓斌的电话是多少?",
+     "attribution": "structured_recall_error"
+    },
+    {
+     "id": "eval-0038",
+     "query": "纪淑英的电话是多少?",
+     "attribution": "structured_recall_error"
+    },
+    {
+     "id": "eval-0039",
+     "query": "王飞的电话是多少?",
+     "attribution": "structured_recall_error"
+    },
+    {
+     "id": "eval-0040",
+     "query": "程阳的电话是多少?",
+     "attribution": "structured_recall_error"
+    },
+    {
+     "id": "eval-0041",
+     "query": "陈云的电话是多少?",
+     "attribution": "structured_recall_error"
+    }
+   ]
+  },
+  "B": {
+   "metrics": {
+    "cases": 26,
+    "Intent Accuracy": 1.0,
+    "QueryType Accuracy": 1.0,
+    "Query→Concept Recall@3": 0.0,
+    "Structured Recall@3": 0.0,
+    "RAG Recall@5": 1.0,
+    "Candidate Recall@5": 0.0,
+    "Final Top1": 0.5714,
+    "Final Recall@3": 0.7619,
+    "OKF Citation Coverage": 0.0,
+    "Error Attribution": {
+     "query_concept_error": 15
+    }
+   },
+   "failed_cases": [
+    {
+     "id": "eval-0005",
+     "query": "谁比较懂安全合规?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0006",
+     "query": "谁比较懂智能客服?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0007",
+     "query": "谁比较懂金融市场?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0008",
+     "query": "谁比较懂数据治理?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0009",
+     "query": "谁比较懂数据报表?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0015",
+     "query": "谁负责智能客服?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0016",
+     "query": "谁负责数据仓库?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0017",
+     "query": "谁负责安全合规?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0018",
+     "query": "谁负责RPA?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0019",
+     "query": "谁负责金融市场?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0047",
+     "query": "数据仓库相关的系统最近老是超时,该找谁?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0048",
+     "query": "智能客服相关的系统最近老是超时,该找谁?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0049",
+     "query": "数据报表相关的系统最近老是超时,该找谁?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0050",
+     "query": "RPA相关的系统最近老是超时,该找谁?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0051",
+     "query": "云原生相关的系统最近老是超时,该找谁?",
+     "attribution": "query_concept_error"
+    }
+   ]
+  },
+  "C": {
+   "metrics": {
+    "cases": 26,
+    "Intent Accuracy": 1.0,
+    "QueryType Accuracy": 1.0,
+    "Query→Concept Recall@3": 1.0,
+    "Structured Recall@3": 0.7143,
+    "RAG Recall@5": 1.0,
+    "Candidate Recall@5": 0.9048,
+    "Final Top1": 0.5714,
+    "Final Recall@3": 0.8095,
+    "OKF Citation Coverage": 0.0,
+    "Error Attribution": {}
+   },
+   "failed_cases": []
+  },
+  "D": {
+   "metrics": {
+    "cases": 26,
+    "Intent Accuracy": 1.0,
+    "QueryType Accuracy": 1.0,
+    "Query→Concept Recall@3": 1.0,
+    "Structured Recall@3": 1.0,
+    "RAG Recall@5": 1.0,
+    "Candidate Recall@5": 0.8571,
+    "Final Top1": 0.5238,
+    "Final Recall@3": 0.7619,
+    "OKF Citation Coverage": 1.0,
+    "Error Attribution": {}
+   },
+   "failed_cases": []
+  },
+  "E": {
+   "metrics": {
+    "cases": 26,
+    "Intent Accuracy": 1.0,
+    "QueryType Accuracy": 1.0,
+    "Query→Concept Recall@3": 0.0,
+    "Structured Recall@3": 0.0,
+    "RAG Recall@5": 0.0,
+    "Candidate Recall@5": 0.0,
+    "Final Top1": 0.0,
+    "Final Recall@3": 0.3333,
+    "OKF Citation Coverage": 0.0,
+    "Error Attribution": {
+     "query_concept_error": 15,
+     "rag_recall_error": 1,
+     "structured_recall_error": 6
+    }
+   },
+   "failed_cases": [
+    {
+     "id": "eval-0005",
+     "query": "谁比较懂安全合规?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0006",
+     "query": "谁比较懂智能客服?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0007",
+     "query": "谁比较懂金融市场?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0008",
+     "query": "谁比较懂数据治理?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0009",
+     "query": "谁比较懂数据报表?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0015",
+     "query": "谁负责智能客服?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0016",
+     "query": "谁负责数据仓库?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0017",
+     "query": "谁负责安全合规?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0018",
+     "query": "谁负责RPA?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0019",
+     "query": "谁负责金融市场?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0029",
+     "query": "统一身份认证接入指南的主要内容是什么?",
+     "attribution": "rag_recall_error"
+    },
+    {
+     "id": "eval-0036",
+     "query": "费阳的电话是多少?",
+     "attribution": "structured_recall_error"
+    },
+    {
+     "id": "eval-0037",
+     "query": "邓斌的电话是多少?",
+     "attribution": "structured_recall_error"
+    },
+    {
+     "id": "eval-0038",
+     "query": "纪淑英的电话是多少?",
+     "attribution": "structured_recall_error"
+    },
+    {
+     "id": "eval-0039",
+     "query": "王飞的电话是多少?",
+     "attribution": "structured_recall_error"
+    },
+    {
+     "id": "eval-0040",
+     "query": "程阳的电话是多少?",
+     "attribution": "structured_recall_error"
+    },
+    {
+     "id": "eval-0041",
+     "query": "陈云的电话是多少?",
+     "attribution": "structured_recall_error"
+    },
+    {
+     "id": "eval-0047",
+     "query": "数据仓库相关的系统最近老是超时,该找谁?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0048",
+     "query": "智能客服相关的系统最近老是超时,该找谁?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0049",
+     "query": "数据报表相关的系统最近老是超时,该找谁?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0050",
+     "query": "RPA相关的系统最近老是超时,该找谁?",
+     "attribution": "query_concept_error"
+    },
+    {
+     "id": "eval-0051",
+     "query": "云原生相关的系统最近老是超时,该找谁?",
+     "attribution": "query_concept_error"
+    }
+   ]
+  }
+ }
+}

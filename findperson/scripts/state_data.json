@@ -1,0 +1,2407 @@
+{
+  "people": [
+    {
+      "id": "p-chen",
+      "name": "陈亦舟",
+      "department": "数字化建设部",
+      "role": "部门经理",
+      "contact": "13800001201",
+      "domains": [
+        "大模型",
+        "Key 申请",
+        "模型调用",
+        "智能体"
+      ],
+      "selfPortrait": "我负责大模型能力接入、Key 申请流程支持，以及智能体应用建设中的模型侧问题答疑。",
+      "peerPortrait": "熟悉大模型平台接入流程，能快速判断 Key、权限、额度和调用报错问题。",
+      "completeness": 98
+    },
+    {
+      "id": "p-luo",
+      "name": "罗澄",
+      "department": "数据治理科",
+      "role": "数据治理专员",
+      "contact": "13800001202",
+      "domains": [
+        "数据治理",
+        "指标口径",
+        "数据报表",
+        "数据质量"
+      ],
+      "selfPortrait": "我主要负责指标口径管理、数据质量核查、报表字段解释和数据治理规范维护。",
+      "peerPortrait": "对跨部门报表口径很敏感，适合处理数据不一致、指标解释、数据来源追溯等问题。",
+      "completeness": 92
+    },
+    {
+      "id": "p-song",
+      "name": "宋可为",
+      "department": "应用运维科",
+      "role": "系统运维主管",
+      "contact": "13800001203",
+      "domains": [
+        "系统运维",
+        "权限申请",
+        "账号问题",
+        "故障排查"
+      ],
+      "selfPortrait": "我负责内部系统账号开通、权限问题排查、应用故障定位和运行监控。",
+      "peerPortrait": "处理系统登录、权限、网络和应用异常经验丰富，能给出明确排查路径。",
+      "completeness": 88
+    },
+    {
+      "id": "p-tang",
+      "name": "唐沐",
+      "department": "综合管理部",
+      "role": "综合管理部负责人",
+      "contact": "13800001204",
+      "domains": [
+        "流程审批",
+        "制度规范",
+        "事项流转",
+        "责任边界"
+      ],
+      "selfPortrait": "我负责综合管理部的协同服务、流程运营和资源统筹，推进下级部门明确首问责任边界。",
+      "peerPortrait": "擅长统筹跨部门事项、流程协同和服务机制建设。",
+      "completeness": 90
+    },
+    {
+      "id": "p-xu",
+      "name": "徐念",
+      "department": "内容运营组",
+      "role": "内容运营专员",
+      "contact": "13800001205",
+      "domains": [
+        "内容运营",
+        "知识发布",
+        "标签体系",
+        "常见问题"
+      ],
+      "selfPortrait": "我负责平台内容运营、标签体系维护、常见问题归档和个人发布内容整理。",
+      "peerPortrait": "能帮助同事把零散经验整理成可复用内容，适合知识发布和标签治理问题。",
+      "completeness": 86
+    },
+    {
+      "id": "p-lin",
+      "name": "林知夏",
+      "department": "协同服务处",
+      "role": "协同服务处负责人",
+      "contact": "13800001206",
+      "domains": [
+        "首问责任",
+        "协同流转",
+        "问题分派"
+      ],
+      "selfPortrait": "我负责协同服务处的首问受理、事项流转和服务体验统筹，并推动下级部门持续完善服务职责。",
+      "peerPortrait": "熟悉业务咨询入口和首问流转过程，适合反馈平台体验和协同效率问题。",
+      "completeness": 82
+    },
+    {
+      "id": "p-zhou",
+      "name": "周弦",
+      "department": "安全合规科",
+      "role": "安全合规负责人",
+      "contact": "13800001207",
+      "domains": [
+        "安全合规",
+        "数据脱敏",
+        "审计检查",
+        "风险评估"
+      ],
+      "selfPortrait": "我负责系统上线安全评估、数据脱敏规则、审计检查材料准备和安全风险整改跟踪。",
+      "peerPortrait": "对合规材料和审计口径熟悉，适合咨询上线前安全检查、数据出境、日志留存和脱敏问题。",
+      "completeness": 91
+    },
+    {
+      "id": "p-jiang",
+      "name": "蒋宁",
+      "department": "政策研究室",
+      "role": "政策解读专员",
+      "contact": "13800001208",
+      "domains": [
+        "政策解读",
+        "政策口径",
+        "材料报送",
+        "业务咨询"
+      ],
+      "selfPortrait": "我负责政策文件解读、对外材料口径确认、业务报送要求梳理和政策问答沉淀。",
+      "peerPortrait": "适合处理政策条款怎么理解、材料怎么写、对外口径怎么统一等问题。",
+      "completeness": 87
+    },
+    {
+      "id": "p-he",
+      "name": "何予",
+      "department": "财务资产科",
+      "role": "采购与预算主管",
+      "contact": "13800001209",
+      "domains": [
+        "采购流程",
+        "预算管理",
+        "合同付款",
+        "资产登记"
+      ],
+      "selfPortrait": "我负责采购申请、预算占用、合同付款节点、固定资产入库和费用报销规则解释。",
+      "peerPortrait": "能快速判断采购事项该走哪个流程、需要哪些附件，以及付款和预算是否满足条件。",
+      "completeness": 89
+    },
+    {
+      "id": "p-ye",
+      "name": "叶澜",
+      "department": "人事培训组",
+      "role": "培训与账号协同专员",
+      "contact": "13800001210",
+      "domains": [
+        "培训报名",
+        "人员信息",
+        "入职离职",
+        "账号联动"
+      ],
+      "selfPortrait": "我负责培训报名、人员信息变更、入职离职协同和账号权限联动通知。",
+      "peerPortrait": "适合咨询人员信息维护、培训安排、新员工账号开通和离职权限回收问题。",
+      "completeness": 84
+    },
+    {
+      "id": "p-clerk-1",
+      "name": "王珂",
+      "department": "数字化建设部",
+      "role": "专员",
+      "contact": "13800001301",
+      "domains": [
+        "大模型",
+        "Key 申请"
+      ],
+      "selfPortrait": "协助处理数字化建设部相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 72
+    },
+    {
+      "id": "p-clerk-2",
+      "name": "赵敏",
+      "department": "数据治理科",
+      "role": "专员",
+      "contact": "13800001302",
+      "domains": [
+        "数据治理",
+        "指标口径"
+      ],
+      "selfPortrait": "协助处理数据治理科相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 73
+    },
+    {
+      "id": "p-clerk-3",
+      "name": "周航",
+      "department": "应用运维科",
+      "role": "专员",
+      "contact": "13800001303",
+      "domains": [
+        "系统运维",
+        "权限申请"
+      ],
+      "selfPortrait": "协助处理应用运维科相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 74
+    },
+    {
+      "id": "p-clerk-4",
+      "name": "吴菲",
+      "department": "综合管理部",
+      "role": "专员",
+      "contact": "13800001304",
+      "domains": [
+        "流程审批",
+        "制度规范"
+      ],
+      "selfPortrait": "协助处理综合管理部相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 75
+    },
+    {
+      "id": "p-clerk-5",
+      "name": "郑然",
+      "department": "内容运营组",
+      "role": "专员",
+      "contact": "13800001305",
+      "domains": [
+        "内容运营",
+        "知识发布"
+      ],
+      "selfPortrait": "协助处理内容运营组相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 76
+    },
+    {
+      "id": "p-clerk-6",
+      "name": "冯昕",
+      "department": "协同服务处",
+      "role": "专员",
+      "contact": "13800001306",
+      "domains": [
+        "首问责任",
+        "协同流转"
+      ],
+      "selfPortrait": "协助处理协同服务处相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 77
+    },
+    {
+      "id": "p-clerk-7",
+      "name": "褚然",
+      "department": "安全合规科",
+      "role": "专员",
+      "contact": "13800001307",
+      "domains": [
+        "安全合规",
+        "数据脱敏"
+      ],
+      "selfPortrait": "协助处理安全合规科相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 78
+    },
+    {
+      "id": "p-clerk-8",
+      "name": "卫澜",
+      "department": "政策研究室",
+      "role": "专员",
+      "contact": "13800001308",
+      "domains": [
+        "政策解读",
+        "政策口径"
+      ],
+      "selfPortrait": "协助处理政策研究室相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 79
+    },
+    {
+      "id": "p-clerk-9",
+      "name": "沈言",
+      "department": "财务资产科",
+      "role": "专员",
+      "contact": "13800001309",
+      "domains": [
+        "采购流程",
+        "预算管理"
+      ],
+      "selfPortrait": "协助处理财务资产科相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 80
+    },
+    {
+      "id": "p-clerk-10",
+      "name": "韩月",
+      "department": "人事培训组",
+      "role": "专员",
+      "contact": "13800001310",
+      "domains": [
+        "培训报名",
+        "人员信息"
+      ],
+      "selfPortrait": "协助处理人事培训组相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 81
+    },
+    {
+      "id": "p-clerk-11",
+      "name": "杨帆",
+      "department": "数字化建设部",
+      "role": "专员",
+      "contact": "13800001311",
+      "domains": [
+        "大模型",
+        "Key 申请"
+      ],
+      "selfPortrait": "协助处理数字化建设部相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 82
+    },
+    {
+      "id": "p-clerk-12",
+      "name": "朱宁",
+      "department": "数据治理科",
+      "role": "专员",
+      "contact": "13800001312",
+      "domains": [
+        "数据治理",
+        "指标口径"
+      ],
+      "selfPortrait": "协助处理数据治理科相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 83
+    },
+    {
+      "id": "p-clerk-13",
+      "name": "秦川",
+      "department": "应用运维科",
+      "role": "专员",
+      "contact": "13800001313",
+      "domains": [
+        "系统运维",
+        "权限申请"
+      ],
+      "selfPortrait": "协助处理应用运维科相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 84
+    },
+    {
+      "id": "p-clerk-14",
+      "name": "尤佳",
+      "department": "综合管理部",
+      "role": "专员",
+      "contact": "13800001314",
+      "domains": [
+        "流程审批",
+        "制度规范"
+      ],
+      "selfPortrait": "协助处理综合管理部相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 85
+    },
+    {
+      "id": "p-clerk-15",
+      "name": "许墨",
+      "department": "内容运营组",
+      "role": "专员",
+      "contact": "13800001315",
+      "domains": [
+        "内容运营",
+        "知识发布"
+      ],
+      "selfPortrait": "协助处理内容运营组相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 86
+    },
+    {
+      "id": "p-clerk-16",
+      "name": "何川",
+      "department": "协同服务处",
+      "role": "专员",
+      "contact": "13800001316",
+      "domains": [
+        "首问责任",
+        "协同流转"
+      ],
+      "selfPortrait": "协助处理协同服务处相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 87
+    },
+    {
+      "id": "p-clerk-17",
+      "name": "吕晴",
+      "department": "安全合规科",
+      "role": "专员",
+      "contact": "13800001317",
+      "domains": [
+        "安全合规",
+        "数据脱敏"
+      ],
+      "selfPortrait": "协助处理安全合规科相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 88
+    },
+    {
+      "id": "p-clerk-18",
+      "name": "施晨",
+      "department": "政策研究室",
+      "role": "专员",
+      "contact": "13800001318",
+      "domains": [
+        "政策解读",
+        "政策口径"
+      ],
+      "selfPortrait": "协助处理政策研究室相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 89
+    },
+    {
+      "id": "p-clerk-19",
+      "name": "张悦",
+      "department": "财务资产科",
+      "role": "专员",
+      "contact": "13800001319",
+      "domains": [
+        "采购流程",
+        "预算管理"
+      ],
+      "selfPortrait": "协助处理财务资产科相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 90
+    },
+    {
+      "id": "p-clerk-20",
+      "name": "孔维",
+      "department": "人事培训组",
+      "role": "专员",
+      "contact": "13800001320",
+      "domains": [
+        "培训报名",
+        "人员信息"
+      ],
+      "selfPortrait": "协助处理人事培训组相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 91
+    },
+    {
+      "id": "p-clerk-21",
+      "name": "曹宇",
+      "department": "数字化建设部",
+      "role": "专员",
+      "contact": "13800001321",
+      "domains": [
+        "大模型",
+        "Key 申请"
+      ],
+      "selfPortrait": "协助处理数字化建设部相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 72
+    },
+    {
+      "id": "p-clerk-22",
+      "name": "严清",
+      "department": "数据治理科",
+      "role": "专员",
+      "contact": "13800001322",
+      "domains": [
+        "数据治理",
+        "指标口径"
+      ],
+      "selfPortrait": "协助处理数据治理科相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 73
+    },
+    {
+      "id": "p-clerk-23",
+      "name": "华宁",
+      "department": "应用运维科",
+      "role": "专员",
+      "contact": "13800001323",
+      "domains": [
+        "系统运维",
+        "权限申请"
+      ],
+      "selfPortrait": "协助处理应用运维科相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 74
+    },
+    {
+      "id": "p-clerk-24",
+      "name": "金晨",
+      "department": "综合管理部",
+      "role": "专员",
+      "contact": "13800001324",
+      "domains": [
+        "流程审批",
+        "制度规范"
+      ],
+      "selfPortrait": "协助处理综合管理部相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 75
+    },
+    {
+      "id": "p-clerk-25",
+      "name": "魏安",
+      "department": "内容运营组",
+      "role": "专员",
+      "contact": "13800001325",
+      "domains": [
+        "内容运营",
+        "知识发布"
+      ],
+      "selfPortrait": "协助处理内容运营组相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 76
+    },
+    {
+      "id": "p-clerk-26",
+      "name": "陶然",
+      "department": "协同服务处",
+      "role": "专员",
+      "contact": "13800001326",
+      "domains": [
+        "首问责任",
+        "协同流转"
+      ],
+      "selfPortrait": "协助处理协同服务处相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 77
+    },
+    {
+      "id": "p-clerk-27",
+      "name": "姜雪",
+      "department": "安全合规科",
+      "role": "专员",
+      "contact": "13800001327",
+      "domains": [
+        "安全合规",
+        "数据脱敏"
+      ],
+      "selfPortrait": "协助处理安全合规科相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 78
+    },
+    {
+      "id": "p-clerk-28",
+      "name": "戚可",
+      "department": "政策研究室",
+      "role": "专员",
+      "contact": "13800001328",
+      "domains": [
+        "政策解读",
+        "政策口径"
+      ],
+      "selfPortrait": "协助处理政策研究室相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 79
+    },
+    {
+      "id": "p-clerk-29",
+      "name": "谢宁",
+      "department": "财务资产科",
+      "role": "专员",
+      "contact": "13800001329",
+      "domains": [
+        "采购流程",
+        "预算管理"
+      ],
+      "selfPortrait": "协助处理财务资产科相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 80
+    },
+    {
+      "id": "p-clerk-30",
+      "name": "邹远",
+      "department": "人事培训组",
+      "role": "专员",
+      "contact": "13800001330",
+      "domains": [
+        "培训报名",
+        "人员信息"
+      ],
+      "selfPortrait": "协助处理人事培训组相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 81
+    },
+    {
+      "id": "p-clerk-31",
+      "name": "喻航",
+      "department": "数字化建设部",
+      "role": "专员",
+      "contact": "13800001331",
+      "domains": [
+        "大模型",
+        "Key 申请"
+      ],
+      "selfPortrait": "协助处理数字化建设部相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 82
+    },
+    {
+      "id": "p-clerk-32",
+      "name": "柏然",
+      "department": "数据治理科",
+      "role": "专员",
+      "contact": "13800001332",
+      "domains": [
+        "数据治理",
+        "指标口径"
+      ],
+      "selfPortrait": "协助处理数据治理科相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 83
+    },
+    {
+      "id": "p-clerk-33",
+      "name": "水清",
+      "department": "应用运维科",
+      "role": "专员",
+      "contact": "13800001333",
+      "domains": [
+        "系统运维",
+        "权限申请"
+      ],
+      "selfPortrait": "协助处理应用运维科相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 84
+    },
+    {
+      "id": "p-clerk-34",
+      "name": "窦宁",
+      "department": "综合管理部",
+      "role": "专员",
+      "contact": "13800001334",
+      "domains": [
+        "流程审批",
+        "制度规范"
+      ],
+      "selfPortrait": "协助处理综合管理部相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 85
+    },
+    {
+      "id": "p-clerk-35",
+      "name": "章悦",
+      "department": "内容运营组",
+      "role": "专员",
+      "contact": "13800001335",
+      "domains": [
+        "内容运营",
+        "知识发布"
+      ],
+      "selfPortrait": "协助处理内容运营组相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 86
+    },
+    {
+      "id": "p-clerk-36",
+      "name": "云帆",
+      "department": "协同服务处",
+      "role": "专员",
+      "contact": "13800001336",
+      "domains": [
+        "首问责任",
+        "协同流转"
+      ],
+      "selfPortrait": "协助处理协同服务处相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 87
+    },
+    {
+      "id": "p-clerk-37",
+      "name": "苏杭",
+      "department": "安全合规科",
+      "role": "专员",
+      "contact": "13800001337",
+      "domains": [
+        "安全合规",
+        "数据脱敏"
+      ],
+      "selfPortrait": "协助处理安全合规科相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 88
+    },
+    {
+      "id": "p-clerk-38",
+      "name": "潘宁",
+      "department": "政策研究室",
+      "role": "专员",
+      "contact": "13800001338",
+      "domains": [
+        "政策解读",
+        "政策口径"
+      ],
+      "selfPortrait": "协助处理政策研究室相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 89
+    },
+    {
+      "id": "p-clerk-39",
+      "name": "葛星",
+      "department": "财务资产科",
+      "role": "专员",
+      "contact": "13800001339",
+      "domains": [
+        "采购流程",
+        "预算管理"
+      ],
+      "selfPortrait": "协助处理财务资产科相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 90
+    },
+    {
+      "id": "p-clerk-40",
+      "name": "奚晨",
+      "department": "人事培训组",
+      "role": "专员",
+      "contact": "13800001340",
+      "domains": [
+        "培训报名",
+        "人员信息"
+      ],
+      "selfPortrait": "协助处理人事培训组相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 91
+    },
+    {
+      "id": "p-clerk-41",
+      "name": "范可",
+      "department": "数字化建设部",
+      "role": "专员",
+      "contact": "13800001341",
+      "domains": [
+        "大模型",
+        "Key 申请"
+      ],
+      "selfPortrait": "协助处理数字化建设部相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 72
+    },
+    {
+      "id": "p-clerk-42",
+      "name": "彭程",
+      "department": "数据治理科",
+      "role": "专员",
+      "contact": "13800001342",
+      "domains": [
+        "数据治理",
+        "指标口径"
+      ],
+      "selfPortrait": "协助处理数据治理科相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 73
+    },
+    {
+      "id": "p-clerk-43",
+      "name": "郎宁",
+      "department": "应用运维科",
+      "role": "专员",
+      "contact": "13800001343",
+      "domains": [
+        "系统运维",
+        "权限申请"
+      ],
+      "selfPortrait": "协助处理应用运维科相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 74
+    },
+    {
+      "id": "p-clerk-44",
+      "name": "鲁明",
+      "department": "综合管理部",
+      "role": "专员",
+      "contact": "13800001344",
+      "domains": [
+        "流程审批",
+        "制度规范"
+      ],
+      "selfPortrait": "协助处理综合管理部相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 75
+    },
+    {
+      "id": "p-clerk-45",
+      "name": "昌宇",
+      "department": "内容运营组",
+      "role": "专员",
+      "contact": "13800001345",
+      "domains": [
+        "内容运营",
+        "知识发布"
+      ],
+      "selfPortrait": "协助处理内容运营组相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 76
+    },
+    {
+      "id": "p-clerk-46",
+      "name": "马欣",
+      "department": "协同服务处",
+      "role": "专员",
+      "contact": "13800001346",
+      "domains": [
+        "首问责任",
+        "协同流转"
+      ],
+      "selfPortrait": "协助处理协同服务处相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 77
+    },
+    {
+      "id": "p-clerk-47",
+      "name": "苗宁",
+      "department": "安全合规科",
+      "role": "专员",
+      "contact": "13800001347",
+      "domains": [
+        "安全合规",
+        "数据脱敏"
+      ],
+      "selfPortrait": "协助处理安全合规科相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 78
+    },
+    {
+      "id": "p-clerk-48",
+      "name": "凤扬",
+      "department": "政策研究室",
+      "role": "专员",
+      "contact": "13800001348",
+      "domains": [
+        "政策解读",
+        "政策口径"
+      ],
+      "selfPortrait": "协助处理政策研究室相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 79
+    },
+    {
+      "id": "p-clerk-49",
+      "name": "花语",
+      "department": "财务资产科",
+      "role": "专员",
+      "contact": "13800001349",
+      "domains": [
+        "采购流程",
+        "预算管理"
+      ],
+      "selfPortrait": "协助处理财务资产科相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 80
+    },
+    {
+      "id": "p-clerk-50",
+      "name": "方正",
+      "department": "人事培训组",
+      "role": "专员",
+      "contact": "13800001350",
+      "domains": [
+        "培训报名",
+        "人员信息"
+      ],
+      "selfPortrait": "协助处理人事培训组相关的日常咨询、事项流转和材料整理。",
+      "peerPortrait": "能够配合完成部门日常咨询和协同事项跟进。",
+      "completeness": 81
+    },
+    {
+      "id": "p-dept-leader-1",
+      "name": "董事长",
+      "department": "上海银行",
+      "departmentPath": [
+        "上海银行"
+      ],
+      "role": "董事长",
+      "contact": "13900002001",
+      "domains": [
+        "上海银行",
+        "首问责任",
+        "协同管理"
+      ],
+      "selfPortrait": "我负责上海银行的团队管理、事项统筹和部门职责维护。",
+      "peerPortrait": "熟悉上海银行的服务边界与协同机制。",
+      "completeness": 90
+    },
+    {
+      "id": "p-dept-member-1",
+      "name": "陈思远",
+      "department": "上海银行",
+      "departmentPath": [
+        "上海银行"
+      ],
+      "role": "协同专员",
+      "contact": "13900002101",
+      "domains": [
+        "上海银行",
+        "事项协同"
+      ],
+      "selfPortrait": "我协助处理上海银行的日常咨询、事项登记和协同跟进。",
+      "peerPortrait": "能够配合完成上海银行的日常服务和材料整理。",
+      "completeness": 78
+    },
+    {
+      "id": "p-dept-leader-3",
+      "name": "陆知衡",
+      "department": "智能能力处",
+      "departmentPath": [
+        "上海银行",
+        "数字化建设部",
+        "智能能力处"
+      ],
+      "role": "部门负责人",
+      "contact": "13900002003",
+      "domains": [
+        "智能能力处",
+        "首问责任",
+        "协同管理"
+      ],
+      "selfPortrait": "我负责智能能力处的团队管理、事项统筹和部门职责维护。",
+      "peerPortrait": "熟悉智能能力处的服务边界与协同机制。",
+      "completeness": 90
+    },
+    {
+      "id": "p-dept-member-3",
+      "name": "王书涵",
+      "department": "智能能力处",
+      "departmentPath": [
+        "上海银行",
+        "数字化建设部",
+        "智能能力处"
+      ],
+      "role": "协同专员",
+      "contact": "13900002103",
+      "domains": [
+        "智能能力处",
+        "事项协同"
+      ],
+      "selfPortrait": "我协助处理智能能力处的日常咨询、事项登记和协同跟进。",
+      "peerPortrait": "能够配合完成智能能力处的日常服务和材料整理。",
+      "completeness": 78
+    },
+    {
+      "id": "p-dept-leader-4",
+      "name": "许清和",
+      "department": "数字能力中心",
+      "departmentPath": [
+        "上海银行",
+        "数字化建设部",
+        "智能能力处",
+        "数字能力中心"
+      ],
+      "role": "部门负责人",
+      "contact": "13900002004",
+      "domains": [
+        "数字能力中心",
+        "首问责任",
+        "协同管理"
+      ],
+      "selfPortrait": "我负责数字能力中心的团队管理、事项统筹和部门职责维护。",
+      "peerPortrait": "熟悉数字能力中心的服务边界与协同机制。",
+      "completeness": 90
+    },
+    {
+      "id": "p-dept-member-4",
+      "name": "赵嘉禾",
+      "department": "数字能力中心",
+      "departmentPath": [
+        "上海银行",
+        "数字化建设部",
+        "智能能力处",
+        "数字能力中心"
+      ],
+      "role": "协同专员",
+      "contact": "13900002104",
+      "domains": [
+        "数字能力中心",
+        "事项协同"
+      ],
+      "selfPortrait": "我协助处理数字能力中心的日常咨询、事项登记和协同跟进。",
+      "peerPortrait": "能够配合完成数字能力中心的日常服务和材料整理。",
+      "completeness": 78
+    },
+    {
+      "id": "p-dept-leader-5",
+      "name": "程予安",
+      "department": "数据治理处",
+      "departmentPath": [
+        "上海银行",
+        "数字化建设部",
+        "数据治理处"
+      ],
+      "role": "部门负责人",
+      "contact": "13900002005",
+      "domains": [
+        "数据治理处",
+        "首问责任",
+        "协同管理"
+      ],
+      "selfPortrait": "我负责数据治理处的团队管理、事项统筹和部门职责维护。",
+      "peerPortrait": "熟悉数据治理处的服务边界与协同机制。",
+      "completeness": 90
+    },
+    {
+      "id": "p-dept-member-5",
+      "name": "吴明轩",
+      "department": "数据治理处",
+      "departmentPath": [
+        "上海银行",
+        "数字化建设部",
+        "数据治理处"
+      ],
+      "role": "协同专员",
+      "contact": "13900002105",
+      "domains": [
+        "数据治理处",
+        "事项协同"
+      ],
+      "selfPortrait": "我协助处理数据治理处的日常咨询、事项登记和协同跟进。",
+      "peerPortrait": "能够配合完成数据治理处的日常服务和材料整理。",
+      "completeness": 78
+    },
+    {
+      "id": "p-dept-leader-7",
+      "name": "谢闻川",
+      "department": "平台运维处",
+      "departmentPath": [
+        "上海银行",
+        "数字化建设部",
+        "平台运维处"
+      ],
+      "role": "部门负责人",
+      "contact": "13900002007",
+      "domains": [
+        "平台运维处",
+        "首问责任",
+        "协同管理"
+      ],
+      "selfPortrait": "我负责平台运维处的团队管理、事项统筹和部门职责维护。",
+      "peerPortrait": "熟悉平台运维处的服务边界与协同机制。",
+      "completeness": 90
+    },
+    {
+      "id": "p-dept-member-7",
+      "name": "冯予安",
+      "department": "平台运维处",
+      "departmentPath": [
+        "上海银行",
+        "数字化建设部",
+        "平台运维处"
+      ],
+      "role": "协同专员",
+      "contact": "13900002107",
+      "domains": [
+        "平台运维处",
+        "事项协同"
+      ],
+      "selfPortrait": "我协助处理平台运维处的日常咨询、事项登记和协同跟进。",
+      "peerPortrait": "能够配合完成平台运维处的日常服务和材料整理。",
+      "completeness": 78
+    },
+    {
+      "id": "p-dept-leader-10",
+      "name": "温书言",
+      "department": "流程运营处",
+      "departmentPath": [
+        "上海银行",
+        "综合管理部",
+        "流程运营处"
+      ],
+      "role": "部门负责人",
+      "contact": "13900002010",
+      "domains": [
+        "流程运营处",
+        "首问责任",
+        "协同管理"
+      ],
+      "selfPortrait": "我负责流程运营处的团队管理、事项统筹和部门职责维护。",
+      "peerPortrait": "熟悉流程运营处的服务边界与协同机制。",
+      "completeness": 90
+    },
+    {
+      "id": "p-dept-member-10",
+      "name": "沈之遥",
+      "department": "流程运营处",
+      "departmentPath": [
+        "上海银行",
+        "综合管理部",
+        "流程运营处"
+      ],
+      "role": "协同专员",
+      "contact": "13900002110",
+      "domains": [
+        "流程运营处",
+        "事项协同"
+      ],
+      "selfPortrait": "我协助处理流程运营处的日常咨询、事项登记和协同跟进。",
+      "peerPortrait": "能够配合完成流程运营处的日常服务和材料整理。",
+      "completeness": 78
+    },
+    {
+      "id": "p-dept-leader-11",
+      "name": "秦知远",
+      "department": "流程管理室",
+      "departmentPath": [
+        "上海银行",
+        "综合管理部",
+        "流程运营处",
+        "流程管理室"
+      ],
+      "role": "部门负责人",
+      "contact": "13900002011",
+      "domains": [
+        "流程管理室",
+        "首问责任",
+        "协同管理"
+      ],
+      "selfPortrait": "我负责流程管理室的团队管理、事项统筹和部门职责维护。",
+      "peerPortrait": "熟悉流程管理室的服务边界与协同机制。",
+      "completeness": 90
+    },
+    {
+      "id": "p-dept-member-11",
+      "name": "韩书宁",
+      "department": "流程管理室",
+      "departmentPath": [
+        "上海银行",
+        "综合管理部",
+        "流程运营处",
+        "流程管理室"
+      ],
+      "role": "协同专员",
+      "contact": "13900002111",
+      "domains": [
+        "流程管理室",
+        "事项协同"
+      ],
+      "selfPortrait": "我协助处理流程管理室的日常咨询、事项登记和协同跟进。",
+      "peerPortrait": "能够配合完成流程管理室的日常服务和材料整理。",
+      "completeness": 78
+    },
+    {
+      "id": "p-dept-leader-12",
+      "name": "周静宜",
+      "department": "知识运营处",
+      "departmentPath": [
+        "上海银行",
+        "综合管理部",
+        "知识运营处"
+      ],
+      "role": "部门负责人",
+      "contact": "13900002012",
+      "domains": [
+        "知识运营处",
+        "首问责任",
+        "协同管理"
+      ],
+      "selfPortrait": "我负责知识运营处的团队管理、事项统筹和部门职责维护。",
+      "peerPortrait": "熟悉知识运营处的服务边界与协同机制。",
+      "completeness": 90
+    },
+    {
+      "id": "p-dept-member-12",
+      "name": "杨知行",
+      "department": "知识运营处",
+      "departmentPath": [
+        "上海银行",
+        "综合管理部",
+        "知识运营处"
+      ],
+      "role": "协同专员",
+      "contact": "13900002112",
+      "domains": [
+        "知识运营处",
+        "事项协同"
+      ],
+      "selfPortrait": "我协助处理知识运营处的日常咨询、事项登记和协同跟进。",
+      "peerPortrait": "能够配合完成知识运营处的日常服务和材料整理。",
+      "completeness": 78
+    },
+    {
+      "id": "p-dept-leader-15",
+      "name": "叶承安",
+      "department": "综合协同办公室",
+      "departmentPath": [
+        "上海银行",
+        "综合管理部",
+        "协同服务处",
+        "综合协同办公室"
+      ],
+      "role": "部门负责人",
+      "contact": "13900002015",
+      "domains": [
+        "综合协同办公室",
+        "首问责任",
+        "协同管理"
+      ],
+      "selfPortrait": "我负责综合协同办公室的团队管理、事项统筹和部门职责维护。",
+      "peerPortrait": "熟悉综合协同办公室的服务边界与协同机制。",
+      "completeness": 90
+    },
+    {
+      "id": "p-dept-member-15",
+      "name": "尤安然",
+      "department": "综合协同办公室",
+      "departmentPath": [
+        "上海银行",
+        "综合管理部",
+        "协同服务处",
+        "综合协同办公室"
+      ],
+      "role": "协同专员",
+      "contact": "13900002115",
+      "domains": [
+        "综合协同办公室",
+        "事项协同"
+      ],
+      "selfPortrait": "我协助处理综合协同办公室的日常咨询、事项登记和协同跟进。",
+      "peerPortrait": "能够配合完成综合协同办公室的日常服务和材料整理。",
+      "completeness": 78
+    },
+    {
+      "id": "p-dept-leader-16",
+      "name": "方予宁",
+      "department": "协同受理组",
+      "departmentPath": [
+        "上海银行",
+        "综合管理部",
+        "协同服务处",
+        "协同受理组"
+      ],
+      "role": "部门负责人",
+      "contact": "13900002016",
+      "domains": [
+        "协同受理组",
+        "首问责任",
+        "协同管理"
+      ],
+      "selfPortrait": "我负责协同受理组的团队管理、事项统筹和部门职责维护。",
+      "peerPortrait": "熟悉协同受理组的服务边界与协同机制。",
+      "completeness": 90
+    },
+    {
+      "id": "p-dept-member-16",
+      "name": "何清越",
+      "department": "协同受理组",
+      "departmentPath": [
+        "上海银行",
+        "综合管理部",
+        "协同服务处",
+        "协同受理组"
+      ],
+      "role": "协同专员",
+      "contact": "13900002116",
+      "domains": [
+        "协同受理组",
+        "事项协同"
+      ],
+      "selfPortrait": "我协助处理协同受理组的日常咨询、事项登记和协同跟进。",
+      "peerPortrait": "能够配合完成协同受理组的日常服务和材料整理。",
+      "completeness": 78
+    },
+    {
+      "id": "p-dept-leader-17",
+      "name": "陆行舟",
+      "department": "事项流转组",
+      "departmentPath": [
+        "上海银行",
+        "综合管理部",
+        "协同服务处",
+        "事项流转组"
+      ],
+      "role": "部门负责人",
+      "contact": "13900002017",
+      "domains": [
+        "事项流转组",
+        "首问责任",
+        "协同管理"
+      ],
+      "selfPortrait": "我负责事项流转组的团队管理、事项统筹和部门职责维护。",
+      "peerPortrait": "熟悉事项流转组的服务边界与协同机制。",
+      "completeness": 90
+    },
+    {
+      "id": "p-dept-member-17",
+      "name": "吕明澈",
+      "department": "事项流转组",
+      "departmentPath": [
+        "上海银行",
+        "综合管理部",
+        "协同服务处",
+        "事项流转组"
+      ],
+      "role": "协同专员",
+      "contact": "13900002117",
+      "domains": [
+        "事项流转组",
+        "事项协同"
+      ],
+      "selfPortrait": "我协助处理事项流转组的日常咨询、事项登记和协同跟进。",
+      "peerPortrait": "能够配合完成事项流转组的日常服务和材料整理。",
+      "completeness": 78
+    },
+    {
+      "id": "p-dept-leader-18",
+      "name": "沈昭然",
+      "department": "服务体验组",
+      "departmentPath": [
+        "上海银行",
+        "综合管理部",
+        "协同服务处",
+        "服务体验组"
+      ],
+      "role": "部门负责人",
+      "contact": "13900002018",
+      "domains": [
+        "服务体验组",
+        "首问责任",
+        "协同管理"
+      ],
+      "selfPortrait": "我负责服务体验组的团队管理、事项统筹和部门职责维护。",
+      "peerPortrait": "熟悉服务体验组的服务边界与协同机制。",
+      "completeness": 90
+    },
+    {
+      "id": "p-dept-member-18",
+      "name": "施念安",
+      "department": "服务体验组",
+      "departmentPath": [
+        "上海银行",
+        "综合管理部",
+        "协同服务处",
+        "服务体验组"
+      ],
+      "role": "协同专员",
+      "contact": "13900002118",
+      "domains": [
+        "服务体验组",
+        "事项协同"
+      ],
+      "selfPortrait": "我协助处理服务体验组的日常咨询、事项登记和协同跟进。",
+      "peerPortrait": "能够配合完成服务体验组的日常服务和材料整理。",
+      "completeness": 78
+    },
+    {
+      "id": "p-dept-leader-19",
+      "name": "许望舒",
+      "department": "知识支持组",
+      "departmentPath": [
+        "上海银行",
+        "综合管理部",
+        "协同服务处",
+        "知识支持组"
+      ],
+      "role": "部门负责人",
+      "contact": "13900002019",
+      "domains": [
+        "知识支持组",
+        "首问责任",
+        "协同管理"
+      ],
+      "selfPortrait": "我负责知识支持组的团队管理、事项统筹和部门职责维护。",
+      "peerPortrait": "熟悉知识支持组的服务边界与协同机制。",
+      "completeness": 90
+    },
+    {
+      "id": "p-dept-member-19",
+      "name": "张书怡",
+      "department": "知识支持组",
+      "departmentPath": [
+        "上海银行",
+        "综合管理部",
+        "协同服务处",
+        "知识支持组"
+      ],
+      "role": "协同专员",
+      "contact": "13900002119",
+      "domains": [
+        "知识支持组",
+        "事项协同"
+      ],
+      "selfPortrait": "我协助处理知识支持组的日常咨询、事项登记和协同跟进。",
+      "peerPortrait": "能够配合完成知识支持组的日常服务和材料整理。",
+      "completeness": 78
+    },
+    {
+      "id": "p-dept-leader-20",
+      "name": "顾行简",
+      "department": "渠道运营组",
+      "departmentPath": [
+        "上海银行",
+        "综合管理部",
+        "协同服务处",
+        "渠道运营组"
+      ],
+      "role": "部门负责人",
+      "contact": "13900002020",
+      "domains": [
+        "渠道运营组",
+        "首问责任",
+        "协同管理"
+      ],
+      "selfPortrait": "我负责渠道运营组的团队管理、事项统筹和部门职责维护。",
+      "peerPortrait": "熟悉渠道运营组的服务边界与协同机制。",
+      "completeness": 90
+    },
+    {
+      "id": "p-dept-member-20",
+      "name": "孔景行",
+      "department": "渠道运营组",
+      "departmentPath": [
+        "上海银行",
+        "综合管理部",
+        "协同服务处",
+        "渠道运营组"
+      ],
+      "role": "协同专员",
+      "contact": "13900002120",
+      "domains": [
+        "渠道运营组",
+        "事项协同"
+      ],
+      "selfPortrait": "我协助处理渠道运营组的日常咨询、事项登记和协同跟进。",
+      "peerPortrait": "能够配合完成渠道运营组的日常服务和材料整理。",
+      "completeness": 78
+    },
+    {
+      "id": "p-dept-leader-21",
+      "name": "周亦安",
+      "department": "财务保障处",
+      "departmentPath": [
+        "上海银行",
+        "综合管理部",
+        "财务保障处"
+      ],
+      "role": "部门负责人",
+      "contact": "13900002021",
+      "domains": [
+        "财务保障处",
+        "首问责任",
+        "协同管理"
+      ],
+      "selfPortrait": "我负责财务保障处的团队管理、事项统筹和部门职责维护。",
+      "peerPortrait": "熟悉财务保障处的服务边界与协同机制。",
+      "completeness": 90
+    },
+    {
+      "id": "p-dept-member-21",
+      "name": "曹若溪",
+      "department": "财务保障处",
+      "departmentPath": [
+        "上海银行",
+        "综合管理部",
+        "财务保障处"
+      ],
+      "role": "协同专员",
+      "contact": "13900002121",
+      "domains": [
+        "财务保障处",
+        "事项协同"
+      ],
+      "selfPortrait": "我协助处理财务保障处的日常咨询、事项登记和协同跟进。",
+      "peerPortrait": "能够配合完成财务保障处的日常服务和材料整理。",
+      "completeness": 78
+    },
+    {
+      "id": "p-dept-leader-23",
+      "name": "林清越",
+      "department": "组织人事处",
+      "departmentPath": [
+        "上海银行",
+        "综合管理部",
+        "组织人事处"
+      ],
+      "role": "部门负责人",
+      "contact": "13900002023",
+      "domains": [
+        "组织人事处",
+        "首问责任",
+        "协同管理"
+      ],
+      "selfPortrait": "我负责组织人事处的团队管理、事项统筹和部门职责维护。",
+      "peerPortrait": "熟悉组织人事处的服务边界与协同机制。",
+      "completeness": 90
+    },
+    {
+      "id": "p-dept-member-23",
+      "name": "华清妍",
+      "department": "组织人事处",
+      "departmentPath": [
+        "上海银行",
+        "综合管理部",
+        "组织人事处"
+      ],
+      "role": "协同专员",
+      "contact": "13900002123",
+      "domains": [
+        "组织人事处",
+        "事项协同"
+      ],
+      "selfPortrait": "我协助处理组织人事处的日常咨询、事项登记和协同跟进。",
+      "peerPortrait": "能够配合完成组织人事处的日常服务和材料整理。",
+      "completeness": 78
+    },
+    {
+      "id": "p-dept-leader-25",
+      "name": "江知夏",
+      "department": "风险管理部",
+      "departmentPath": [
+        "上海银行",
+        "风险管理部"
+      ],
+      "role": "部门负责人",
+      "contact": "13900002025",
+      "domains": [
+        "风险管理部",
+        "首问责任",
+        "协同管理"
+      ],
+      "selfPortrait": "我负责风险管理部的团队管理、事项统筹和部门职责维护。",
+      "peerPortrait": "熟悉风险管理部的服务边界与协同机制。",
+      "completeness": 90
+    },
+    {
+      "id": "p-dept-member-25",
+      "name": "魏昭然",
+      "department": "风险管理部",
+      "departmentPath": [
+        "上海银行",
+        "风险管理部"
+      ],
+      "role": "协同专员",
+      "contact": "13900002125",
+      "domains": [
+        "风险管理部",
+        "事项协同"
+      ],
+      "selfPortrait": "我协助处理风险管理部的日常咨询、事项登记和协同跟进。",
+      "peerPortrait": "能够配合完成风险管理部的日常服务和材料整理。",
+      "completeness": 78
+    },
+    {
+      "id": "p-dept-leader-26",
+      "name": "谢安然",
+      "department": "安全治理处",
+      "departmentPath": [
+        "上海银行",
+        "风险管理部",
+        "安全治理处"
+      ],
+      "role": "部门负责人",
+      "contact": "13900002026",
+      "domains": [
+        "安全治理处",
+        "首问责任",
+        "协同管理"
+      ],
+      "selfPortrait": "我负责安全治理处的团队管理、事项统筹和部门职责维护。",
+      "peerPortrait": "熟悉安全治理处的服务边界与协同机制。",
+      "completeness": 90
+    },
+    {
+      "id": "p-dept-member-26",
+      "name": "陶书言",
+      "department": "安全治理处",
+      "departmentPath": [
+        "上海银行",
+        "风险管理部",
+        "安全治理处"
+      ],
+      "role": "协同专员",
+      "contact": "13900002126",
+      "domains": [
+        "安全治理处",
+        "事项协同"
+      ],
+      "selfPortrait": "我协助处理安全治理处的日常咨询、事项登记和协同跟进。",
+      "peerPortrait": "能够配合完成安全治理处的日常服务和材料整理。",
+      "completeness": 78
+    },
+    {
+      "id": "p-dept-leader-28",
+      "name": "温予安",
+      "department": "业务管理部",
+      "departmentPath": [
+        "上海银行",
+        "业务管理部"
+      ],
+      "role": "部门负责人",
+      "contact": "13900002028",
+      "domains": [
+        "业务管理部",
+        "首问责任",
+        "协同管理"
+      ],
+      "selfPortrait": "我负责业务管理部的团队管理、事项统筹和部门职责维护。",
+      "peerPortrait": "熟悉业务管理部的服务边界与协同机制。",
+      "completeness": 90
+    },
+    {
+      "id": "p-dept-member-28",
+      "name": "戚安宁",
+      "department": "业务管理部",
+      "departmentPath": [
+        "上海银行",
+        "业务管理部"
+      ],
+      "role": "协同专员",
+      "contact": "13900002128",
+      "domains": [
+        "业务管理部",
+        "事项协同"
+      ],
+      "selfPortrait": "我协助处理业务管理部的日常咨询、事项登记和协同跟进。",
+      "peerPortrait": "能够配合完成业务管理部的日常服务和材料整理。",
+      "completeness": 78
+    },
+    {
+      "id": "p-dept-leader-29",
+      "name": "秦书衡",
+      "department": "政策研究处",
+      "departmentPath": [
+        "上海银行",
+        "业务管理部",
+        "政策研究处"
+      ],
+      "role": "部门负责人",
+      "contact": "13900002029",
+      "domains": [
+        "政策研究处",
+        "首问责任",
+        "协同管理"
+      ],
+      "selfPortrait": "我负责政策研究处的团队管理、事项统筹和部门职责维护。",
+      "peerPortrait": "熟悉政策研究处的服务边界与协同机制。",
+      "completeness": 90
+    },
+    {
+      "id": "p-dept-member-29",
+      "name": "谢明澈",
+      "department": "政策研究处",
+      "departmentPath": [
+        "上海银行",
+        "业务管理部",
+        "政策研究处"
+      ],
+      "role": "协同专员",
+      "contact": "13900002129",
+      "domains": [
+        "政策研究处",
+        "事项协同"
+      ],
+      "selfPortrait": "我协助处理政策研究处的日常咨询、事项登记和协同跟进。",
+      "peerPortrait": "能够配合完成政策研究处的日常服务和材料整理。",
+      "completeness": 78
+    }
+  ],
+  "departments": [
+    {
+      "id": "dept-上海银行",
+      "name": "上海银行",
+      "parentId": "",
+      "path": [
+        "上海银行"
+      ],
+      "leaderId": "p-dept-leader-1",
+      "responsibility": "负责上海银行相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-数字化建设部",
+      "name": "数字化建设部",
+      "parentId": "dept-上海银行",
+      "path": [
+        "上海银行",
+        "数字化建设部"
+      ],
+      "leaderId": "p-chen",
+      "responsibility": "负责数字化建设部相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-智能能力处",
+      "name": "智能能力处",
+      "parentId": "dept-数字化建设部",
+      "path": [
+        "上海银行",
+        "数字化建设部",
+        "智能能力处"
+      ],
+      "leaderId": "p-dept-leader-3",
+      "responsibility": "负责智能能力处相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-数字能力中心",
+      "name": "数字能力中心",
+      "parentId": "dept-智能能力处",
+      "path": [
+        "上海银行",
+        "数字化建设部",
+        "智能能力处",
+        "数字能力中心"
+      ],
+      "leaderId": "p-dept-leader-4",
+      "responsibility": "负责数字能力中心相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-数据治理处",
+      "name": "数据治理处",
+      "parentId": "dept-数字化建设部",
+      "path": [
+        "上海银行",
+        "数字化建设部",
+        "数据治理处"
+      ],
+      "leaderId": "p-dept-leader-5",
+      "responsibility": "负责数据治理处相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-数据治理科",
+      "name": "数据治理科",
+      "parentId": "dept-数据治理处",
+      "path": [
+        "上海银行",
+        "数字化建设部",
+        "数据治理处",
+        "数据治理科"
+      ],
+      "leaderId": "p-luo",
+      "responsibility": "负责数据治理科相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-平台运维处",
+      "name": "平台运维处",
+      "parentId": "dept-数字化建设部",
+      "path": [
+        "上海银行",
+        "数字化建设部",
+        "平台运维处"
+      ],
+      "leaderId": "p-dept-leader-7",
+      "responsibility": "负责平台运维处相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-应用运维科",
+      "name": "应用运维科",
+      "parentId": "dept-平台运维处",
+      "path": [
+        "上海银行",
+        "数字化建设部",
+        "平台运维处",
+        "应用运维科"
+      ],
+      "leaderId": "p-song",
+      "responsibility": "负责应用运维科相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-综合管理部",
+      "name": "综合管理部",
+      "parentId": "dept-上海银行",
+      "path": [
+        "上海银行",
+        "综合管理部"
+      ],
+      "leaderId": "p-tang",
+      "responsibility": "负责综合管理部相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-流程运营处",
+      "name": "流程运营处",
+      "parentId": "dept-综合管理部",
+      "path": [
+        "上海银行",
+        "综合管理部",
+        "流程运营处"
+      ],
+      "leaderId": "p-dept-leader-10",
+      "responsibility": "负责流程运营处相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-流程管理室",
+      "name": "流程管理室",
+      "parentId": "dept-流程运营处",
+      "path": [
+        "上海银行",
+        "综合管理部",
+        "流程运营处",
+        "流程管理室"
+      ],
+      "leaderId": "p-dept-leader-11",
+      "responsibility": "负责流程管理室相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-知识运营处",
+      "name": "知识运营处",
+      "parentId": "dept-综合管理部",
+      "path": [
+        "上海银行",
+        "综合管理部",
+        "知识运营处"
+      ],
+      "leaderId": "p-dept-leader-12",
+      "responsibility": "负责知识运营处相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-内容运营组",
+      "name": "内容运营组",
+      "parentId": "dept-知识运营处",
+      "path": [
+        "上海银行",
+        "综合管理部",
+        "知识运营处",
+        "内容运营组"
+      ],
+      "leaderId": "p-xu",
+      "responsibility": "负责内容运营组相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-协同服务处",
+      "name": "协同服务处",
+      "parentId": "dept-综合管理部",
+      "path": [
+        "上海银行",
+        "综合管理部",
+        "协同服务处"
+      ],
+      "leaderId": "p-lin",
+      "responsibility": "负责协同服务处相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-综合协同办公室",
+      "name": "综合协同办公室",
+      "parentId": "dept-协同服务处",
+      "path": [
+        "上海银行",
+        "综合管理部",
+        "协同服务处",
+        "综合协同办公室"
+      ],
+      "leaderId": "p-dept-leader-15",
+      "responsibility": "负责综合协同办公室相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-协同受理组",
+      "name": "协同受理组",
+      "parentId": "dept-协同服务处",
+      "path": [
+        "上海银行",
+        "综合管理部",
+        "协同服务处",
+        "协同受理组"
+      ],
+      "leaderId": "p-dept-leader-16",
+      "responsibility": "负责协同受理组相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-事项流转组",
+      "name": "事项流转组",
+      "parentId": "dept-协同服务处",
+      "path": [
+        "上海银行",
+        "综合管理部",
+        "协同服务处",
+        "事项流转组"
+      ],
+      "leaderId": "p-dept-leader-17",
+      "responsibility": "负责事项流转组相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-服务体验组",
+      "name": "服务体验组",
+      "parentId": "dept-协同服务处",
+      "path": [
+        "上海银行",
+        "综合管理部",
+        "协同服务处",
+        "服务体验组"
+      ],
+      "leaderId": "p-dept-leader-18",
+      "responsibility": "负责服务体验组相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-知识支持组",
+      "name": "知识支持组",
+      "parentId": "dept-协同服务处",
+      "path": [
+        "上海银行",
+        "综合管理部",
+        "协同服务处",
+        "知识支持组"
+      ],
+      "leaderId": "p-dept-leader-19",
+      "responsibility": "负责知识支持组相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-渠道运营组",
+      "name": "渠道运营组",
+      "parentId": "dept-协同服务处",
+      "path": [
+        "上海银行",
+        "综合管理部",
+        "协同服务处",
+        "渠道运营组"
+      ],
+      "leaderId": "p-dept-leader-20",
+      "responsibility": "负责渠道运营组相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-财务保障处",
+      "name": "财务保障处",
+      "parentId": "dept-综合管理部",
+      "path": [
+        "上海银行",
+        "综合管理部",
+        "财务保障处"
+      ],
+      "leaderId": "p-dept-leader-21",
+      "responsibility": "负责财务保障处相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-财务资产科",
+      "name": "财务资产科",
+      "parentId": "dept-财务保障处",
+      "path": [
+        "上海银行",
+        "综合管理部",
+        "财务保障处",
+        "财务资产科"
+      ],
+      "leaderId": "p-he",
+      "responsibility": "负责财务资产科相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-组织人事处",
+      "name": "组织人事处",
+      "parentId": "dept-综合管理部",
+      "path": [
+        "上海银行",
+        "综合管理部",
+        "组织人事处"
+      ],
+      "leaderId": "p-dept-leader-23",
+      "responsibility": "负责组织人事处相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-人事培训组",
+      "name": "人事培训组",
+      "parentId": "dept-组织人事处",
+      "path": [
+        "上海银行",
+        "综合管理部",
+        "组织人事处",
+        "人事培训组"
+      ],
+      "leaderId": "p-ye",
+      "responsibility": "负责人事培训组相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-风险管理部",
+      "name": "风险管理部",
+      "parentId": "dept-上海银行",
+      "path": [
+        "上海银行",
+        "风险管理部"
+      ],
+      "leaderId": "p-dept-leader-25",
+      "responsibility": "负责风险管理部相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-安全治理处",
+      "name": "安全治理处",
+      "parentId": "dept-风险管理部",
+      "path": [
+        "上海银行",
+        "风险管理部",
+        "安全治理处"
+      ],
+      "leaderId": "p-dept-leader-26",
+      "responsibility": "负责安全治理处相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-安全合规科",
+      "name": "安全合规科",
+      "parentId": "dept-安全治理处",
+      "path": [
+        "上海银行",
+        "风险管理部",
+        "安全治理处",
+        "安全合规科"
+      ],
+      "leaderId": "p-zhou",
+      "responsibility": "负责安全合规科相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-业务管理部",
+      "name": "业务管理部",
+      "parentId": "dept-上海银行",
+      "path": [
+        "上海银行",
+        "业务管理部"
+      ],
+      "leaderId": "p-dept-leader-28",
+      "responsibility": "负责业务管理部相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-政策研究处",
+      "name": "政策研究处",
+      "parentId": "dept-业务管理部",
+      "path": [
+        "上海银行",
+        "业务管理部",
+        "政策研究处"
+      ],
+      "leaderId": "p-dept-leader-29",
+      "responsibility": "负责政策研究处相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    },
+    {
+      "id": "dept-政策研究室",
+      "name": "政策研究室",
+      "parentId": "dept-政策研究处",
+      "path": [
+        "上海银行",
+        "业务管理部",
+        "政策研究处",
+        "政策研究室"
+      ],
+      "leaderId": "p-jiang",
+      "responsibility": "负责政策研究室相关事项的受理、协同与业务支撑，明确首问责任边界并持续维护服务指引。"
+    }
+  ],
+  "roles": [
+    "董事长",
+    "副行长",
+    "部门负责人",
+    "部门经理",
+    "经理",
+    "科长",
+    "主管",
+    "专员",
+    "协同专员"
+  ],
+  "contents": [
+    {
+      "id": "c-key",
+      "ownerId": "p-chen",
+      "title": "大模型 Key 申请流程",
+      "tags": [
+        "大模型",
+        "Key 申请",
+        "权限流程"
+      ],
+      "summary": "说明大模型 Key 的申请条件、审批节点、调用额度和常见驳回原因。",
+      "body": "申请前需明确用途、调用模型、预计额度和责任部门。提交后按部门负责人、平台管理员两级审批。",
+      "publishedAt": "2026-07-05",
+      "pinned": true,
+      "weeklyQueryCount": 82,
+      "weeklyRecommendCount": 64
+    },
+    {
+      "id": "c-agent",
+      "ownerId": "p-chen",
+      "title": "智能体应用常见问题处理说明",
+      "tags": [
+        "智能体",
+        "模型调用",
+        "故障排查"
+      ],
+      "summary": "整理智能体运行报错、模型无响应、工具调用失败等常见问题的排查方法。",
+      "body": "重点排查模型配置、网络连通性、工具权限与输入参数完整性。",
+      "publishedAt": "2026-07-04",
+      "pinned": true,
+      "weeklyQueryCount": 77,
+      "weeklyRecommendCount": 59
+    },
+    {
+      "id": "c-report",
+      "ownerId": "p-luo",
+      "title": "数据报表口径核对清单",
+      "tags": [
+        "数据报表",
+        "指标口径",
+        "数据质量"
+      ],
+      "summary": "给出跨部门报表口径核对步骤，帮助定位字段来源、统计周期和计算规则差异。",
+      "body": "先确认指标定义，再核对统计周期、数据来源表和口径变更记录。",
+      "publishedAt": "2026-07-03",
+      "pinned": false,
+      "weeklyQueryCount": 71,
+      "weeklyRecommendCount": 44
+    },
+    {
+      "id": "c-auth",
+      "ownerId": "p-song",
+      "title": "内部系统权限申请注意事项",
+      "tags": [
+        "权限申请",
+        "账号问题",
+        "系统运维"
+      ],
+      "summary": "说明系统权限申请材料、审批人选择、账号异常处理和权限回收规则。",
+      "body": "所有权限申请需关联岗位职责，离岗后 24 小时内完成权限回收。",
+      "publishedAt": "2026-07-02",
+      "pinned": false,
+      "weeklyQueryCount": 69,
+      "weeklyRecommendCount": 51
+    },
+    {
+      "id": "c-flow",
+      "ownerId": "p-tang",
+      "title": "跨部门事项流转路径说明",
+      "tags": [
+        "流程审批",
+        "事项流转",
+        "责任边界"
+      ],
+      "summary": "解释跨部门事项如何判断首问责任人、协助人和最终处理部门。",
+      "body": "首问人先受理，再判断责任归属，如需协同须同步记录协助链路。",
+      "publishedAt": "2026-07-01",
+      "pinned": true,
+      "weeklyQueryCount": 74,
+      "weeklyRecommendCount": 56
+    },
+    {
+      "id": "c-security",
+      "ownerId": "p-zhou",
+      "title": "系统上线安全评估材料清单",
+      "tags": [
+        "安全合规",
+        "审计检查",
+        "风险评估"
+      ],
+      "summary": "列出系统上线前需要提交的安全评估材料、日志留存要求、脱敏证明和整改闭环记录。",
+      "body": "材料需至少包含安全评估表、日志策略、整改清单和责任人确认记录。",
+      "publishedAt": "2026-06-30",
+      "pinned": false,
+      "weeklyQueryCount": 58,
+      "weeklyRecommendCount": 36
+    },
+    {
+      "id": "c-policy",
+      "ownerId": "p-jiang",
+      "title": "政策口径确认与材料报送说明",
+      "tags": [
+        "政策解读",
+        "政策口径",
+        "材料报送"
+      ],
+      "summary": "说明政策条款不明确时的确认路径、材料报送格式和对外答复口径留痕要求。",
+      "body": "建议先内部形成统一口径，再进行对外答复，并保留确认记录。",
+      "publishedAt": "2026-06-29",
+      "pinned": false,
+      "weeklyQueryCount": 46,
+      "weeklyRecommendCount": 29
+    },
+    {
+      "id": "c-purchase",
+      "ownerId": "p-he",
+      "title": "采购申请到合同付款流程",
+      "tags": [
+        "采购流程",
+        "预算管理",
+        "合同付款"
+      ],
+      "summary": "串联采购申请、预算占用、合同审批、验收确认和付款申请的关键节点。",
+      "body": "流程关键在预算校验、验收凭证和付款资料完整性。",
+      "publishedAt": "2026-06-28",
+      "pinned": false,
+      "weeklyQueryCount": 43,
+      "weeklyRecommendCount": 31
+    },
+    {
+      "id": "c-training",
+      "ownerId": "p-ye",
+      "title": "培训报名与人员信息维护流程",
+      "tags": [
+        "培训报名",
+        "人员信息",
+        "入职离职"
+      ],
+      "summary": "说明培训报名入口、人员信息变更、入职离职联动和账号开通通知路径。",
+      "body": "涉及人员信息变更时需同步组织、人事和系统账号三方。",
+      "publishedAt": "2026-06-27",
+      "pinned": false,
+      "weeklyQueryCount": 38,
+      "weeklyRecommendCount": 24
+    },
+    {
+      "id": "c-supervise",
+      "ownerId": "p-han",
+      "title": "首问事项督办和闭环管理办法",
+      "tags": [
+        "督办跟踪",
+        "闭环管理",
+        "服务评价"
+      ],
+      "summary": "说明首问事项超过响应时限后的督办机制、协同记录要求和闭环评价方式。",
+      "body": "超时事项需触发督办，闭环前必须补齐协同说明和结果反馈。",
+      "publishedAt": "2026-06-26",
+      "pinned": false,
+      "weeklyQueryCount": 35,
+      "weeklyRecommendCount": 22
+    },
+    {
+      "id": "c-training-manual",
+      "ownerId": "p-cai",
+      "title": "平台培训报名和使用手册获取",
+      "tags": [
+        "平台培训",
+        "使用手册",
+        "用户答疑"
+      ],
+      "summary": "说明平台培训报名方式、手册下载路径、常见操作问题和宣贯材料更新流程。",
+      "body": "新用户可先阅读手册，再报名体验场培训。手册版本按月更新。",
+      "publishedAt": "2026-06-25",
+      "pinned": true,
+      "weeklyQueryCount": 62,
+      "weeklyRecommendCount": 48
+    },
+    {
+      "id": "c-pending-model",
+      "ownerId": "p-chen",
+      "title": "模型调用额度申请补充说明",
+      "tags": [
+        "大模型",
+        "额度申请"
+      ],
+      "summary": "补充额度申请需要准备的业务说明和容量预估信息。",
+      "body": "请提交使用场景、模型类型、调用峰值和责任人信息，便于完成额度评估。",
+      "status": "待审核",
+      "submittedAt": "2026-07-22",
+      "updatedAt": "2026-07-22",
+      "version": 1,
+      "pinned": false,
+      "weeklyQueryCount": 0,
+      "weeklyRecommendCount": 0
+    },
+    {
+      "id": "c-pending-data",
+      "ownerId": "p-luo",
+      "title": "数据质量问题提报规范",
+      "tags": [
+        "数据治理",
+        "数据质量"
+      ],
+      "summary": "统一数据质量问题的提报字段、影响范围和反馈时限。",
+      "body": "提报时应包含数据来源、异常样例、影响范围和期望处理时限。",
+      "status": "待审核",
+      "submittedAt": "2026-07-21",
+      "updatedAt": "2026-07-21",
+      "version": 1,
+      "pinned": false,
+      "weeklyQueryCount": 0,
+      "weeklyRecommendCount": 0
+    },
+    {
+      "id": "c-pending-flow",
+      "ownerId": "p-tang",
+      "title": "跨部门事项协同登记要求",
+      "tags": [
+        "流程审批",
+        "协同流转"
+      ],
+      "summary": "明确跨部门事项的协同登记时点和责任记录要求。",
+      "body": "首问受理后需要记录协同部门、协同事项、反馈时限和最终结论。",
+      "status": "待审核",
+      "submittedAt": "2026-07-20",
+      "updatedAt": "2026-07-20",
+      "version": 1,
+      "pinned": false,
+      "weeklyQueryCount": 0,
+      "weeklyRecommendCount": 0
+    }
+  ],
+  "manuals": [
+    {
+      "title": "1. 登录与首页",
+      "body": "支持用户名/手机号 + 密码登录。进入后默认看到首问助手首页，可直接发起提问或进入历史对话。"
+    },
+    {
+      "title": "2. 智能问答与历史对话",
+      "body": "每次提问都会生成会话记录，支持搜索、标题修改和直接删除。"
+    },
+    {
+      "title": "3. 名片库与人员主页",
+      "body": "名片库支持按实际组织层级逐级筛选；点击名片可进入人员主页查看职责、画像和公开发布内容。"
+    },
+    {
+      "title": "4. 个人中心与后台",
+      "body": "个人中心可维护资料、发布内容、查看操作手册；后台支持查看人员规模、发布内容、本周推荐热度和周活趋势。"
+    }
+  ],
+  "domains": {
+    "大模型": [
+      "大模型",
+      "模型",
+      "llm",
+      "key",
+      "调用",
+      "额度",
+      "api"
+    ],
+    "智能体": [
+      "智能体",
+      "agent",
+      "工具调用",
+      "应用建设",
+      "报错"
+    ],
+    "数据治理": [
+      "数据",
+      "治理",
+      "质量",
+      "字段",
+      "来源"
+    ],
+    "指标口径": [
+      "指标",
+      "口径",
+      "统计",
+      "报表",
+      "不一致"
+    ],
+    "系统运维": [
+      "系统",
+      "运维",
+      "故障",
+      "登录",
+      "账号",
+      "异常"
+    ],
+    "权限申请": [
+      "权限",
+      "申请",
+      "开通",
+      "审批",
+      "账号"
+    ],
+    "流程审批": [
+      "流程",
+      "审批",
+      "事项",
+      "流转",
+      "制度",
+      "责任边界"
+    ],
+    "内容运营": [
+      "内容",
+      "发布",
+      "知识",
+      "标签",
+      "常见问题"
+    ],
+    "安全合规": [
+      "安全",
+      "合规",
+      "上线",
+      "风险",
+      "审计",
+      "日志"
+    ],
+    "政策解读": [
+      "政策",
+      "条款",
+      "口径",
+      "解读",
+      "材料",
+      "报送"
+    ],
+    "采购流程": [
+      "采购",
+      "合同",
+      "付款",
+      "预算",
+      "报销",
+      "资产"
+    ],
+    "培训报名": [
+      "培训",
+      "报名",
+      "课程",
+      "人员信息",
+      "入职",
+      "离职"
+    ],
+    "督办跟踪": [
+      "督办",
+      "超时",
+      "响应",
+      "投诉",
+      "评价",
+      "闭环"
+    ],
+    "平台培训": [
+      "培训",
+      "手册",
+      "宣贯",
+      "怎么用",
+      "操作",
+      "答疑"
+    ]
+  },
+  "recommended": {
+    "p-chen": 126,
+    "p-luo": 103,
+    "p-song": 91,
+    "p-tang": 88,
+    "p-xu": 72,
+    "p-lin": 64,
+    "p-zhou": 79,
+    "p-jiang": 68,
+    "p-he": 74,
+    "p-ye": 61,
+    "p-han": 57,
+    "p-cai": 52
+  }
+}

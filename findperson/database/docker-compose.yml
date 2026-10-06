@@ -1,0 +1,23 @@
+version: "3.9"
+
+services:
+  postgres:
+    image: pgvector/pgvector:pg17
+    container_name: swzr-pg
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: shouwenzeren_newdb
+      POSTGRES_USER: swzr_admin
+      POSTGRES_PASSWORD: ${DB_PASSWORD:?请在本目录 .env 中设置 DB_PASSWORD}
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U swzr_admin -d shouwenzeren_newdb"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  pgdata:
